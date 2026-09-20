@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<nav class="doc-home-link"><a href="https://burnimjerome.github.io/LIKHA-_-BETA/">&larr; Go back Home</a></nav>
+<nav class="doc-home-link"><a href="{{ '/' | relative_url }}">&larr; Go back Home</a></nav>
 
 # Likha Agentic Process Automation
 
@@ -14,7 +14,7 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](https://github.com/BurnIMJerome/LIKHA-_-BETA/tree/main/docs/installer-output)
+[Download Likha Installer](https://github.com/adklikha-tech/KORA/tree/main/docs/installer-output)
 
 Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
 

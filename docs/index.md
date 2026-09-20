@@ -192,7 +192,7 @@ page_class: home-page
         <p>Likha is shaped by practical RPA development experience. It focuses on the capabilities builders reach for every day: clear activity behavior, expression-aware fields, reusable flows, reliable runtime execution, and an operating path from one desktop to distributed robots.</p>
         <div class="hero-actions">
           <a class="button button-dark" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
-          <a class="button button-ghost-dark" href="https://github.com/BurnIMJerome/LIKHA-_-BETA/tree/main/docs/installer-output">Download Beta</a>
+          <a class="button button-ghost-dark" href="https://github.com/adklikha-tech/KORA/tree/main/docs/installer-output">Download Beta</a>
         </div>
       </div>
 
@@ -268,7 +268,7 @@ page_class: home-page
       <div class="cta-actions">
         <a class="button button-dark" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
         <a class="button button-ghost-dark" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
-        <a class="button button-ghost-dark" href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">View on GitHub</a>
+        <a class="button button-ghost-dark" href="https://github.com/adklikha-tech/KORA" target="_blank" rel="noopener">View on GitHub</a>
       </div>
     </div>
   </div>

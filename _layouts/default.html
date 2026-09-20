@@ -1,7 +1,7 @@
 ---
 ---
 {% assign docs_root = site.docs_root %}
-{% assign canonical_home_url = 'https://burnimjerome.github.io/LIKHA-_-BETA/' %}
+{% assign canonical_home_url = '/' | relative_url %}
 {% assign page_title = page.title | default: page.name | remove: '.md' | remove: '.html' %}
 {% assign page_description = page.description | default: site.description %}
 {% assign favicon_path = docs_root | append: '/Logo/likha.ico' %}
@@ -126,7 +126,7 @@
             <a class="nav-pricing" href="{{ docs_root | append: '/pricing.html' | relative_url }}">
               Pricing <span>Coming soon</span>
             </a>
-            <a class="nav-github" href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">GitHub</a>
+            <a class="nav-github" href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener">GitHub</a>
           </div>
 
           <a class="button button-primary nav-cta" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
@@ -237,7 +237,7 @@
           </div>
           <div>
             <h2>Project</h2>
-            <a href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener">GitHub</a>
             <a href="{{ docs_root | append: '/01%20-%20Dev%27s%20Manifesto.html' | relative_url }}">Manifesto</a>
             <a href="{{ docs_root | append: '/03%20-%20Why%20Likha.html' | relative_url }}">Why Likha</a>
             <a href="{{ docs_root | append: '/19%20-%20Roadmap.html' | relative_url }}">Roadmap</a>

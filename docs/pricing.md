@@ -43,7 +43,7 @@ page_class: marketing-page
       </div>
       <div class="hero-actions">
         <a class="button button-primary" href="mailto:Jearomev@yahoo.com">Contact the project owner</a>
-        <a class="button button-secondary" href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">Follow on GitHub</a>
+        <a class="button button-secondary" href="https://github.com/adklikha-tech/KORA" target="_blank" rel="noopener">Follow on GitHub</a>
       </div>
     </div>
   </div>

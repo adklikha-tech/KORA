@@ -1,0 +1,375 @@
+---
+---
+{% assign docs_root = site.docs_root %}
+{% assign canonical_home_url = 'https://burnimjerome.github.io/LIKHA-_-BETA/' %}
+{% assign page_title = page.title | default: page.name | remove: '.md' | remove: '.html' %}
+{% assign page_description = page.description | default: site.description %}
+{% assign favicon_path = docs_root | append: '/Logo/likha.ico' %}
+{% assign flow_logo_path = docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567.png' %}
+{% assign social_image_path = docs_root | append: '/images/process-designer.png' %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1830">
+    <meta name="color-scheme" content="light">
+    <title>{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Likha{% endif %}</title>
+    <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <link rel="icon" href="{{ favicon_path | relative_url }}" sizes="any">
+    <link rel="stylesheet" href="{{ docs_root | append: '/assets/css/style.css' | relative_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Likha">
+    <meta property="og:title" content="{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Likha{% endif %}">
+    <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{{ social_image_path | relative_url }}">
+    <meta property="og:image:alt" content="Likha Process Designer interface">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Likha{% endif %}">
+    <meta name="twitter:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ social_image_path | relative_url }}">
+  </head>
+  <body class="{{ page.page_class | default: 'documentation-page' }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-site-header>
+      <div class="header-inner">
+        <a class="brand" href="{{ canonical_home_url }}" aria-label="Likha home">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="{{ flow_logo_path | relative_url }}" alt="">
+          </span>
+          <span class="brand-name">Likha</span>
+          <span class="brand-edition">Beta</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-menu-toggle>
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-navigation" id="site-navigation" aria-label="Primary navigation" data-site-navigation>
+          <div class="nav-links">
+            <a href="{{ canonical_home_url }}">Home</a>
+
+            <details class="nav-dropdown">
+              <summary>Platform</summary>
+              <div class="dropdown-panel">
+                <a href="{{ docs_root | append: '/05%20-%20Features.html' | relative_url }}">
+                  <strong>Features</strong>
+                  <span>Explore the complete automation toolkit.</span>
+                </a>
+                <a href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">
+                  <strong>Agentic AI</strong>
+                  <span>Build governed agents with tools and knowledge.</span>
+                </a>
+                <a href="{{ docs_root | append: '/04%20-%20Architecture.html' | relative_url }}">
+                  <strong>Architecture</strong>
+                  <span>Understand the platform and runtime model.</span>
+                </a>
+                <a href="{{ docs_root | append: '/17%20-%20Orchestrator.html' | relative_url }}">
+                  <strong>Control Room</strong>
+                  <span>Schedule, monitor, and operate automations.</span>
+                </a>
+              </div>
+            </details>
+
+            <details class="nav-dropdown">
+              <summary>Automation</summary>
+              <div class="dropdown-panel">
+                <a href="{{ docs_root | append: '/08%20-%20Desktop%20Automation.html' | relative_url }}">
+                  <strong>Desktop automation</strong>
+                  <span>Automate Windows applications reliably.</span>
+                </a>
+                <a href="{{ docs_root | append: '/09%20-%20Browser%20Automation.html' | relative_url }}">
+                  <strong>Browser automation</strong>
+                  <span>Build fast, selector-driven web workflows.</span>
+                </a>
+                <a href="{{ docs_root | append: '/10%20-%20AI%20Integration.html' | relative_url }}">
+                  <strong>AI and documents</strong>
+                  <span>Connect models, OCR, vision, and extraction.</span>
+                </a>
+                <a href="{{ docs_root | append: '/16%20-%20Event%20Triggers.html' | relative_url }}">
+                  <strong>Triggers and scheduling</strong>
+                  <span>Start work from time-based and event signals.</span>
+                </a>
+              </div>
+            </details>
+
+            <details class="nav-dropdown">
+              <summary>Resources</summary>
+              <div class="dropdown-panel">
+                <a href="{{ docs_root | append: '/README.html' | relative_url }}">
+                  <strong>Documentation</strong>
+                  <span>Browse every guide and activity reference.</span>
+                </a>
+                <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">
+                  <strong>Quick start</strong>
+                  <span>Build and run your first flow.</span>
+                </a>
+                <a href="{{ canonical_home_url }}#video-demos-title">
+                  <strong>Video demos</strong>
+                  <span>See real Likha automations in action.</span>
+                </a>
+                <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">
+                  <strong>FAQ</strong>
+                  <span>Find answers to common platform questions.</span>
+                </a>
+              </div>
+            </details>
+
+            <a href="{{ docs_root | append: '/blog.html' | relative_url }}">Blog</a>
+
+            <a class="nav-pricing" href="{{ docs_root | append: '/pricing.html' | relative_url }}">
+              Pricing <span>Coming soon</span>
+            </a>
+            <a class="nav-github" href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">GitHub</a>
+          </div>
+
+          <a class="button button-primary nav-cta" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
+        </nav>
+      </div>
+    </header>
+
+    {% if page.page_class == 'home-page' or page.page_class == 'marketing-page' %}
+      <main id="main-content" class="marketing-content">
+        {{ content }}
+      </main>
+    {% else %}
+      <div class="docs-shell">
+        <aside class="docs-sidebar" aria-label="Documentation navigation">
+          <div class="docs-sidebar-inner">
+            <a class="docs-home" href="{{ docs_root | append: '/README.html' | relative_url }}">
+              <span>Likha documentation</span>
+              <small>Guides and references</small>
+            </a>
+
+            <details open>
+              <summary>Get started</summary>
+              <a href="{{ docs_root | append: '/02%20-%20Product%20Overview.html' | relative_url }}">Product overview</a>
+              <a href="{{ docs_root | append: '/06%20-%20Installation%20Guide.html' | relative_url }}">Installation guide</a>
+              <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">Quick start</a>
+              <a href="{{ docs_root | append: '/05%20-%20Features.html' | relative_url }}">Features</a>
+            </details>
+
+            <details open>
+              <summary>Build automations</summary>
+              <a href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Agents</a>
+              <a href="{{ docs_root | append: '/08%20-%20Desktop%20Automation.html' | relative_url }}">Desktop automation</a>
+              <a href="{{ docs_root | append: '/09%20-%20Browser%20Automation.html' | relative_url }}">Browser automation</a>
+              <a href="{{ docs_root | append: '/10%20-%20AI%20Integration.html' | relative_url }}">AI integration</a>
+              <a href="{{ docs_root | append: '/11%20-%20Excel%20Automation.html' | relative_url }}">Excel automation</a>
+              <a href="{{ docs_root | append: '/12%20-%20Data%20and%20Data%20Table%20Activities.html' | relative_url }}">Data tables</a>
+              <a href="{{ docs_root | append: '/13%20-%20Flow%20Control%20and%20Loops.html' | relative_url }}">Flow control</a>
+              <a href="{{ docs_root | append: '/15%20-%20Files,%20Queues,%20API,%20and%20Scripting.html' | relative_url }}">Files, queues, APIs</a>
+              <a href="{{ docs_root | append: '/16%20-%20Event%20Triggers.html' | relative_url }}">Event triggers</a>
+            </details>
+
+            <details open>
+              <summary>Operate and scale</summary>
+              <a href="{{ docs_root | append: '/04%20-%20Architecture.html' | relative_url }}">Architecture</a>
+              <a href="{{ docs_root | append: '/22%20-%20Agent%20Infrastructure.html' | relative_url }}">Agent infrastructure</a>
+              <a href="{{ docs_root | append: '/17%20-%20Orchestrator.html' | relative_url }}">Orchestrator</a>
+              <a href="{{ docs_root | append: '/Database%20Settings.html' | relative_url }}">Database settings</a>
+              <a href="{{ docs_root | append: '/Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html' | relative_url }}">Distributed robots</a>
+              <a href="{{ docs_root | append: '/18%20-%20Licensing.html' | relative_url }}">Licensing</a>
+            </details>
+
+            <details>
+              <summary>Project</summary>
+              <a href="{{ docs_root | append: '/01%20-%20Dev%27s%20Manifesto.html' | relative_url }}">Developer manifesto</a>
+              <a href="{{ docs_root | append: '/03%20-%20Why%20Likha.html' | relative_url }}">Why Likha</a>
+              <a href="{{ docs_root | append: '/19%20-%20Roadmap.html' | relative_url }}">Roadmap</a>
+              <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">FAQ</a>
+            </details>
+          </div>
+        </aside>
+
+        <main id="main-content" class="main-content docs-content">
+          {{ content }}
+          <nav class="doc-pager" aria-label="Previous and next guides" data-doc-pager hidden></nav>
+        </main>
+
+        <aside class="page-toc" aria-label="On this page" data-page-toc-wrapper hidden>
+          <strong>On this page</strong>
+          <ol data-page-toc></ol>
+        </aside>
+      </div>
+    {% endif %}
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="{{ canonical_home_url }}">
+            <span class="brand-mark" aria-hidden="true"><img src="{{ flow_logo_path | relative_url }}" alt=""></span>
+            <span class="brand-name">Likha</span>
+          </a>
+          <p>Agentic Process Automation for teams that want governed AI, reliable execution, flexibility, and room to scale.</p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h2>Platform</h2>
+            <a href="{{ docs_root | append: '/05%20-%20Features.html' | relative_url }}">Features</a>
+            <a href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Agentic AI</a>
+            <a href="{{ docs_root | append: '/08%20-%20Desktop%20Automation.html' | relative_url }}">Desktop</a>
+            <a href="{{ docs_root | append: '/09%20-%20Browser%20Automation.html' | relative_url }}">Browser</a>
+            <a href="{{ docs_root | append: '/pricing.html' | relative_url }}">Pricing</a>
+          </div>
+          <div>
+            <h2>Resources</h2>
+            <a href="{{ docs_root | append: '/blog.html' | relative_url }}">Blog</a>
+            <a href="{{ canonical_home_url }}#video-demos-title">Video demos</a>
+            <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">Quick start</a>
+            <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">FAQ</a>
+            <a href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
+          </div>
+          <div>
+            <h2>Documentation</h2>
+            <a href="{{ docs_root | append: '/README.html' | relative_url }}">Documentation home</a>
+            <a href="{{ docs_root | append: '/04%20-%20Architecture.html' | relative_url }}">Architecture</a>
+            <a href="{{ docs_root | append: '/10%20-%20AI%20Integration.html' | relative_url }}">AI integration</a>
+            <a href="{{ docs_root | append: '/17%20-%20Orchestrator.html' | relative_url }}">Orchestrator</a>
+            <a href="{{ docs_root | append: '/18%20-%20Licensing.html' | relative_url }}">Licensing</a>
+          </div>
+          <div>
+            <h2>Project</h2>
+            <a href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">GitHub</a>
+            <a href="{{ docs_root | append: '/01%20-%20Dev%27s%20Manifesto.html' | relative_url }}">Manifesto</a>
+            <a href="{{ docs_root | append: '/03%20-%20Why%20Likha.html' | relative_url }}">Why Likha</a>
+            <a href="{{ docs_root | append: '/19%20-%20Roadmap.html' | relative_url }}">Roadmap</a>
+            <a href="{{ docs_root | append: '/COPYRIGHT.html' | relative_url }}">Copyright</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; {{ site.time | date: '%Y' }} Likha. All rights reserved.</span>
+        <span>Agentic RPA, built for practical automation.</span>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var toggle = document.querySelector('[data-menu-toggle]');
+        var navigation = document.querySelector('[data-site-navigation]');
+        if (toggle && navigation) {
+          toggle.addEventListener('click', function () {
+            var isOpen = navigation.classList.toggle('is-open');
+            toggle.setAttribute('aria-expanded', String(isOpen));
+            document.body.classList.toggle('menu-open', isOpen);
+          });
+          navigation.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+              navigation.classList.remove('is-open');
+              toggle.setAttribute('aria-expanded', 'false');
+              document.body.classList.remove('menu-open');
+            });
+          });
+        }
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape') {
+            document.querySelectorAll('.nav-dropdown[open]').forEach(function (dropdown) {
+              dropdown.removeAttribute('open');
+            });
+            if (navigation && toggle) {
+              navigation.classList.remove('is-open');
+              toggle.setAttribute('aria-expanded', 'false');
+              document.body.classList.remove('menu-open');
+            }
+          }
+        });
+
+        document.addEventListener('click', function (event) {
+          document.querySelectorAll('.nav-dropdown[open]').forEach(function (dropdown) {
+            if (!dropdown.contains(event.target)) dropdown.removeAttribute('open');
+          });
+        });
+
+        var currentPath = decodeURIComponent(window.location.pathname).replace(/\/$/, '');
+        document.querySelectorAll('.site-navigation a, .docs-sidebar a').forEach(function (link) {
+          if (link.origin === window.location.origin) {
+            var linkPath = decodeURIComponent(link.pathname).replace(/\/$/, '');
+            var isCurrentBlog = /\/blog\.html$/.test(linkPath) && currentPath.indexOf(linkPath.replace(/blog\.html$/, 'blog/')) === 0;
+            if (linkPath && (linkPath === currentPath || isCurrentBlog)) link.setAttribute('aria-current', 'page');
+          }
+        });
+
+        var content = document.querySelector('.docs-content');
+        var tocWrapper = document.querySelector('[data-page-toc-wrapper]');
+        var toc = document.querySelector('[data-page-toc]');
+        if (content && tocWrapper && toc) {
+          var headings = Array.prototype.slice.call(content.querySelectorAll('h2, h3'));
+          if (headings.length > 1) {
+            headings.forEach(function (heading, index) {
+              if (!heading.id) {
+                heading.id = heading.textContent.toLowerCase().trim()
+                  .replace(/[^a-z0-9\s-]/g, '')
+                  .replace(/\s+/g, '-') || 'section-' + (index + 1);
+              }
+              var item = document.createElement('li');
+              if (heading.tagName === 'H3') item.className = 'toc-subitem';
+              var link = document.createElement('a');
+              link.href = '#' + heading.id;
+              link.textContent = heading.textContent;
+              item.appendChild(link);
+              toc.appendChild(item);
+            });
+            tocWrapper.hidden = false;
+          }
+        }
+
+        var pager = document.querySelector('[data-doc-pager]');
+        if (pager) {
+          var guides = [
+            ["01 - Dev's Manifesto.html", "Developer Manifesto"],
+            ["02 - Product Overview.html", "Product Overview"],
+            ["03 - Why Likha.html", "Why Likha"],
+            ["04 - Architecture.html", "Architecture"],
+            ["05 - Features.html", "Features"],
+            ["06 - Installation Guide.html", "Installation Guide"],
+            ["07 - Quick Start.html", "Quick Start"],
+            ["08 - Desktop Automation.html", "Desktop Automation"],
+            ["09 - Browser Automation.html", "Browser Automation"],
+            ["10 - AI Integration.html", "AI Integration"],
+            ["11 - Excel Automation.html", "Excel Automation"],
+            ["12 - Data and Data Table Activities.html", "Data and Data Tables"],
+            ["13 - Flow Control and Loops.html", "Flow Control and Loops"],
+            ["14 - Input, Monitor, and Message Activities.html", "Input, Monitor, and Messages"],
+            ["15 - Files, Queues, API, and Scripting.html", "Files, Queues, APIs, and Scripting"],
+            ["16 - Event Triggers.html", "Event Triggers"],
+            ["17 - Orchestrator.html", "Orchestrator"],
+            ["18 - Licensing.html", "Licensing"],
+            ["19 - Roadmap.html", "Roadmap"],
+            ["20 - FAQ.html", "FAQ"],
+            ["21 - Agents.html", "Agentic AI and Likha Agents"],
+            ["22 - Agent Infrastructure.html", "Agent Infrastructure"]
+          ];
+          var filename = decodeURIComponent(window.location.pathname.split('/').pop());
+          var position = guides.findIndex(function (guide) { return guide[0] === filename; });
+          if (position !== -1) {
+            var makePagerLink = function (guide, direction) {
+              var link = document.createElement('a');
+              link.href = encodeURI(guide[0]);
+              link.className = 'doc-pager-link doc-pager-' + direction;
+              var small = document.createElement('small');
+              small.textContent = direction === 'previous' ? 'Previous guide' : 'Next guide';
+              var strong = document.createElement('strong');
+              strong.textContent = guide[1];
+              link.appendChild(small);
+              link.appendChild(strong);
+              return link;
+            };
+            if (position > 0) pager.appendChild(makePagerLink(guides[position - 1], 'previous'));
+            if (position < guides.length - 1) pager.appendChild(makePagerLink(guides[position + 1], 'next'));
+            pager.hidden = false;
+          }
+        }
+      }());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+title: Likha | Agentic Process Automation
+description: Likha is an Agentic Process Automation (Agentic RPA) platform that combines governed AI agents with low-code desktop, browser, document, and workflow automation.
+url: https://burnimjerome.github.io
+baseurl: /LIKHA-_-BETA
+repository: BurnIMJerome/LIKHA-_-BETA
+docs_root: /docs
+author: Likha
+lang: en
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+
+optional_front_matter:
+  remove_originals: true
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md

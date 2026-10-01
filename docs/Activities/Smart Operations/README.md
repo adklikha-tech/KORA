@@ -8,7 +8,7 @@ layout: default
 
 Smart Operations are local rule-based helpers for fuzzy matching, text normalization, number parsing, currency comparison, format detection, and invoice-number extraction. They do not call an AI provider and do not require Control Room AI Settings.
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 ## Activities
 

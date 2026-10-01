@@ -6,7 +6,7 @@ layout: default
 
 # Excel > Get Workbook Sheet
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 Gets a worksheet name from an open Excel workbook and saves it as text.
 

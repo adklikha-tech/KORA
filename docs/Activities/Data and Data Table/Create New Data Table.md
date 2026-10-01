@@ -6,7 +6,7 @@ layout: default
 
 # Create New Data Table
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Data Table
 

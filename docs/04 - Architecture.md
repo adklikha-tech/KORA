@@ -6,7 +6,7 @@ layout: default
 
 # Architecture
 
-Likha can run as a single-machine attended studio or as a distributed Agentic Process Automation platform with a Control Room and unattended robot VMs.
+Kora can run as a single-machine attended studio or as a distributed Agentic Process Automation platform with a Control Room and unattended robot VMs.
 
 The architecture separates decision-making from execution. An agent interprets a goal and selects an approved tool; the workflow engine and robot runtime execute that tool under defined operational controls.
 
@@ -31,7 +31,7 @@ See [Database Settings](Database%20Settings.html) for database requirements, act
 
 ```text
 User workstation
-  Likha desktop app
+  Kora desktop app
   Process Designer
   Local SQLite database
   Workflow engine
@@ -50,18 +50,18 @@ run_desktop.bat
 
 ```text
 Robot machine
-  Likha Control Room
-  LikhaRobotService
-  LikhaUserAgent
+  Kora Control Room
+  KoraRobotService
+  KoraUserAgent
   Selected SQLite, PostgreSQL, or SQL Server database
   Schedules, event triggers, robot jobs
 ```
 
 Use this setup when schedules, trigger-based runs, or background robot jobs should run without manually clicking Run in the designer.
 
-`LikhaRobotService` supervises schedules and jobs.
+`KoraRobotService` supervises schedules and jobs.
 
-`LikhaUserAgent` runs inside the logged-in Windows session for browser, desktop, mouse, keyboard, monitor, and message box activities.
+`KoraUserAgent` runs inside the logged-in Windows session for browser, desktop, mouse, keyboard, monitor, and message box activities.
 
 See:
 
@@ -72,7 +72,7 @@ See:
 
 ```text
 Control Room server
-  Likha Control Room
+  Kora Control Room
   Selected SQLite, PostgreSQL, or SQL Server database
   Scheduler
   Queue Management
@@ -81,12 +81,12 @@ Control Room server
   HTTP API
 
 Robot VM 1..N
-  LikhaRobotService
-  LikhaUserAgent
+  KoraRobotService
+  KoraUserAgent
   Browser/Desktop/Excel/UI automation
 ```
 
-Use this setup when a central server owns agents, knowledge, conversations, workflows, schedules, queues, robot registrations, and logs while separate VM robots execute jobs. PostgreSQL or Microsoft SQL Server is recommended when multiple Likha services need a shared data store.
+Use this setup when a central server owns agents, knowledge, conversations, workflows, schedules, queues, robot registrations, and logs while separate VM robots execute jobs. PostgreSQL or Microsoft SQL Server is recommended when multiple Kora services need a shared data store.
 
 See:
 

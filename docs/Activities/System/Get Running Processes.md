@@ -26,4 +26,4 @@ Each row describes a running process and can be used by For Each, Filter Data Ta
 Output DataTable: RunningProcesses
 ```
 
-Process visibility depends on the permissions of the Windows account running Likha.
+Process visibility depends on the permissions of the Windows account running Kora.

@@ -39,7 +39,7 @@ page_class: marketing-page blog-article-page
 
     <div class="blog-article-cta">
       <div>
-        <strong>See Likha's operating model</strong>
+        <strong>See Kora's operating model</strong>
         <p>Explore how agent decisions and automation execution fit within the wider platform architecture.</p>
       </div>
       <a class="button button-primary" href="{{ docs_root | append: '/04%20-%20Architecture.html' | relative_url }}">Explore Architecture</a>

@@ -6,7 +6,7 @@ layout: default
 
 # Parse Human Number
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Smart operations
 

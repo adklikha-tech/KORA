@@ -6,11 +6,11 @@ layout: default
 
 # Activities
 
-This folder groups Likha activity documentation by automation area.
+This folder groups Kora activity documentation by automation area.
 
 The detailed activity pages are grouped by automation area.
 
-Activities can be assembled into fixed RPA workflows or exposed as approved tools to a [Likha Agent](../21%20-%20Agents.html).
+Activities can be assembled into fixed RPA workflows or exposed as approved tools to a [Kora Agent](../21%20-%20Agents.html).
 
 ## Activity Groups
 

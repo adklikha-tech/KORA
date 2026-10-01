@@ -51,7 +51,7 @@ build_desktop.bat
 Packaged output:
 
 ```text
-dist\Likha\Likha.exe
+dist\Kora\Kora.exe
 ```
 
 ## Installer Build
@@ -63,7 +63,7 @@ build_installer.bat
 Installer output:
 
 ```text
-installer-output\LikhaSetup.exe
+installer-output\KoraSetup.exe
 ```
 
 ## OCR Setup
@@ -98,7 +98,7 @@ See:
 
 SQLite works automatically and needs no additional database setup. PostgreSQL support uses a PostgreSQL connection URL. Microsoft SQL Server requires **Microsoft ODBC Driver 18 for SQL Server** on every Windows machine that connects directly to the database.
 
-After installation, configure and test the shared database under **Control Room > Database**, save the selection, and restart Likha.
+After installation, configure and test the shared database under **Control Room > Database**, save the selection, and restart Kora.
 
 See:
 

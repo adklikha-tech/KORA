@@ -8,7 +8,7 @@ layout: default
 
 AI Screen Control uses the configured AI provider, a screenshot of the selected target window, OCR, and Windows UI information to understand, extract information from, and operate visible applications using natural-language instructions.
 
-These activities can be used in ordinary workflows or exposed as tools to a Likha Agent. This gives agents a controlled way to work with legacy or visual applications that do not provide a suitable API or stable selector.
+These activities can be used in ordinary workflows or exposed as tools to a Kora Agent. This gives agents a controlled way to work with legacy or visual applications that do not provide a suitable API or stable selector.
 
 ## Activities
 
@@ -24,8 +24,8 @@ These activities can be used in ordinary workflows or exposed as tools to a Likh
 
 - Configure a vision-capable model in Control Room > AI Settings.
 - Keep the target application visible and unlocked while the activity runs.
-- For `Target Window`, use `Automatic` for the topmost visible non-Likha application, or enter part of a window title to lock the activity to that application.
-- The Likha User Agent must run inside the active Windows user session for unattended or VM execution.
+- For `Target Window`, use `Automatic` for the topmost visible non-Kora application, or enter part of a window title to lock the activity to that application.
+- The Kora User Agent must run inside the active Windows user session for unattended or VM execution.
 
 ## Recommended Pattern
 

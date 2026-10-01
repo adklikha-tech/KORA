@@ -6,7 +6,7 @@ layout: default
 
 # API Request
 
-![Likha Control Room - Queue Management](../../images/control-room-queues.png)
+![Kora Control Room - Queue Management](../../images/control-room-queues.png)
 
 **Activity group:** API
 

@@ -6,7 +6,7 @@ layout: default
 
 # Developer Manifesto
 
-## Why I Built Likha
+## Why I Built Kora
 
 I've worked with RPA for years.
 
@@ -22,7 +22,7 @@ Before many companies even automate their first process, they're already paying 
 
 For many businesses, especially small and medium-sized ones, that's enough to stop their automation journey before it even begins.
 
-That's why I started building Likha.
+That's why I started building Kora.
 
 Not to compete with the biggest RPA platforms.
 
@@ -36,15 +36,15 @@ Something affordable.
 
 Something developers would actually enjoy using.
 
-## What Is Likha?
+## What Is Kora?
 
-Likha is a low-code automation platform for desktop, browser, API, and AI-powered workflows.
+Kora is a low-code automation platform for desktop, browser, API, and AI-powered workflows.
 
 It lets you build, run, and monitor automations without forcing you into a specific infrastructure or ecosystem.
 
 You can start by automating a few tasks on your own computer.
 
-When your business grows, Likha grows with you.
+When your business grows, Kora grows with you.
 
 You can connect it to a shared database, deploy an on-premise orchestrator, manage multiple bots, or integrate it into your cloud environment.
 
@@ -54,7 +54,7 @@ Not your software vendor.
 
 ## Built By Someone Who Uses RPA Every Day
 
-Every feature in Likha exists because I've needed it before.
+Every feature in Kora exists because I've needed it before.
 
 Every activity has been inspired by real customer projects.
 
@@ -85,7 +85,7 @@ Before you've even automated a single process, you've already invested thousands
 
 And once you're inside that ecosystem, leaving becomes expensive.
 
-I wanted Likha to be different.
+I wanted Kora to be different.
 
 You purchase a license once.
 
@@ -103,7 +103,7 @@ Not every company needs an enterprise orchestrator.
 
 Sometimes all you need is a single bot running on one computer.
 
-Likha supports that.
+Kora supports that.
 
 Install it.
 
@@ -139,7 +139,7 @@ An orchestrator.
 
 Or maybe you want everything running inside your own private infrastructure.
 
-Likha supports that too.
+Kora supports that too.
 
 Scale should happen because your business needs it, not because your software requires it.
 
@@ -153,7 +153,7 @@ Another usage fee.
 
 Another bill.
 
-Likha takes a different approach.
+Kora takes a different approach.
 
 Bring your own AI.
 
@@ -165,7 +165,7 @@ There are no hidden markups.
 
 No platform commissions.
 
-No extra AI licensing from Likha.
+No extra AI licensing from Kora.
 
 You choose the model.
 
@@ -173,13 +173,13 @@ You control the costs.
 
 You own the configuration.
 
-Likha simply provides the tools to make AI part of your workflows.
+Kora simply provides the tools to make AI part of your workflows.
 
 ## Built To Grow With You
 
 I don't believe software should force you into an architecture you don't need.
 
-Likha works whether you're:
+Kora works whether you're:
 
 - Automating your own daily tasks
 - Building bots for a small business
@@ -194,7 +194,7 @@ Deploy an orchestrator when the time is right.
 
 Move to the cloud if your business requires it.
 
-There isn't a "correct" way to use Likha.
+There isn't a "correct" way to use Kora.
 
 There is only the way that makes sense for you.
 
@@ -214,7 +214,7 @@ One that businesses can actually afford.
 
 One that doesn't make automation feel like a long-term financial commitment.
 
-If Likha helps someone automate their first repetitive task, save time every day, or build an automation business without spending a fortune on software, then I've achieved exactly what I set out to do.
+If Kora helps someone automate their first repetitive task, save time every day, or build an automation business without spending a fortune on software, then I've achieved exactly what I set out to do.
 
 ## The Philosophy
 
@@ -226,7 +226,7 @@ You shouldn't be forced into an ecosystem just to automate repetitive work.
 
 You shouldn't need enterprise budgets to start automating.
 
-That's what Likha is all about.
+That's what Kora is all about.
 
 Simple.
 

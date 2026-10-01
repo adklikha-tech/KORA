@@ -8,9 +8,9 @@ layout: default
 
 Placeholder.
 
-![Likha Control Room - License](images/control-room-license.png)
+![Kora Control Room - License](images/control-room-license.png)
 
-This page will describe Likha licensing once the final licensing model, activation process, offline behavior, and support terms are ready.
+This page will describe Kora licensing once the final licensing model, activation process, offline behavior, and support terms are ready.
 
 Expected future sections:
 

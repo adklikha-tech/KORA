@@ -6,7 +6,7 @@ layout: default
 
 # Run PowerShell
 
-![Likha Control Room - Queue Management](../../images/control-room-queues.png)
+![Kora Control Room - Queue Management](../../images/control-room-queues.png)
 
 **Activity group:** Scripting
 

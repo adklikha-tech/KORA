@@ -6,7 +6,7 @@ layout: default
 
 # Smart Operations
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 These are rule-based smart operations powered by algorithms, regex, and fuzzy matching. They do not require AI integration.
 

@@ -1,6 +1,6 @@
-﻿# Likha Agentic Process Automation
+# Kora Agentic Process Automation
 
-Likha is a Windows-first Agentic Process Automation platform, also called Agentic RPA, for building, running, and managing governed AI agents and reliable workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
+Kora is a Windows-first Agentic Process Automation platform, also called Agentic RPA, for building, running, and managing governed AI agents and reliable workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
 
 It is designed for teams that want practical automation without being forced into a large enterprise platform before they are ready.
  
@@ -8,15 +8,15 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](https://github.com/adklikha-tech/KORA/tree/main/docs/installer-output)
+[Download Kora Installer](https://github.com/adklikha-tech/KORA/tree/main/docs/installer-output)
 
 Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
 
-## What Likha Does
+## What Kora Does
 
-Likha helps users automate outcomes by combining goal-driven AI agents with a low-code Process Designer, Control Room, and robot runtime. Agents can understand context and choose approved tools, while RPA workflows provide reliable execution for repeatable business actions.
+Kora helps users automate outcomes by combining goal-driven AI agents with a low-code Process Designer, Control Room, and robot runtime. Agents can understand context and choose approved tools, while RPA workflows provide reliable execution for repeatable business actions.
 
-![Likha Process Designer panel tabs](docs/images/process-designer-panels.gif)
+![Kora Process Designer panel tabs](docs/images/process-designer-panels.gif)
 
 Core capabilities:
 
@@ -48,11 +48,11 @@ Build goal-driven automations with grounded knowledge, citations, version histor
 
 Start here:
 
-[Agentic AI and Likha Agents](docs/21%20-%20Agents.md)
+[Agentic AI and Kora Agents](docs/21%20-%20Agents.md)
 
 ### Agent Infrastructure
 
-Run agents through Likha's Control Room, workflow engine, selectable database, queues, robot services, active Windows user sessions, AI settings, audit events, and operational logs across local or private VM environments.
+Run agents through Kora's Control Room, workflow engine, selectable database, queues, robot services, active Windows user sessions, AI settings, audit events, and operational logs across local or private VM environments.
 
 Start here:
 
@@ -86,7 +86,7 @@ Start here:
 
 Use the redesigned Control Room to manage agents, knowledge, flows, schedules, runs, logs, global variables, queues, robots, AI settings, database settings, and licensing. It includes grouped navigation, light/dark themes, and Local Runner CPU, memory, heartbeat, and current-flow status.
 
-![Likha Control Room - Flows](docs/images/control-room-flows.png)
+![Kora Control Room - Flows](docs/images/control-room-flows.png)
 
 Start here:
 
@@ -102,9 +102,9 @@ Start here:
 
 ### Unattended Robots
 
-Run scheduled and triggered jobs through `LikhaRobotService` and `LikhaUserAgent`, including distributed VM robot setups.
+Run scheduled and triggered jobs through `KoraRobotService` and `KoraUserAgent`, including distributed VM robot setups.
 
-![Likha Control Room - Robots](docs/images/control-room-robots.png)
+![Kora Control Room - Robots](docs/images/control-room-robots.png)
 
 Start here:
 
@@ -112,9 +112,9 @@ Start here:
 
 ### AI Integration
 
-Bring your own AI provider and configure it in Control Room. Likha provides workflow activities for prompting, document field extraction, vision, table extraction, and knowledge search without forcing a separate AI platform subscription.
+Bring your own AI provider and configure it in Control Room. Kora provides workflow activities for prompting, document field extraction, vision, table extraction, and knowledge search without forcing a separate AI platform subscription.
 
-![Likha Control Room - AI Settings](docs/images/control-room-ai-settings.png)
+![Kora Control Room - AI Settings](docs/images/control-room-ai-settings.png)
 
 Start here:
 
@@ -124,23 +124,23 @@ Start here:
 
 ## Start Small
 
-Likha can run as a local desktop automation studio. A user can install it, build a flow, and run it on one machine without needing a server or enterprise orchestrator.
+Kora can run as a local desktop automation studio. A user can install it, build a flow, and run it on one machine without needing a server or enterprise orchestrator.
 
 ## Scale When Needed
 
-When the automation program grows, Likha can expand into schedules, queues, Control Room, robot jobs, and VM robots.
+When the automation program grows, Kora can expand into schedules, queues, Control Room, robot jobs, and VM robots.
 
 ## Own The Runtime
 
-Likha is designed for teams that want control over where automation runs: local machine, on-premise server, VM robot, or private infrastructure.
+Kora is designed for teams that want control over where automation runs: local machine, on-premise server, VM robot, or private infrastructure.
 
 ## Bring Your Own AI
 
-Likha connects to the AI provider configured by the user. The platform does not need to sit between the user and the provider as a markup layer.
+Kora connects to the AI provider configured by the user. The platform does not need to sit between the user and the provider as a markup layer.
 
 ## Practical Activity Coverage
 
-Likha focuses on the activities automation builders use every day:
+Kora focuses on the activities automation builders use every day:
 
 - Browser
 - Desktop
@@ -159,7 +159,7 @@ Likha focuses on the activities automation builders use every day:
 
 ## Product Vision
 
-Likha's vision is to make Agentic Process Automation accessible, practical, governable, and owned by the people who build it.
+Kora's vision is to make Agentic Process Automation accessible, practical, governable, and owned by the people who build it.
 
 The product direction is:
 
@@ -178,7 +178,7 @@ The product direction is:
 
 - [01 - Founder's Manifesto](docs/01%20-%20Dev's%20Manifesto.md)
 - [02 - Product Overview](docs/02%20-%20Product%20Overview.md)
-- [03 - Why Likha](docs/03%20-%20Why%20Likha.md)
+- [03 - Why Kora](docs/03%20-%20Why%20Kora.md)
 - [04 - Architecture](docs/04%20-%20Architecture.md)
 - [05 - Features](docs/05%20-%20Features.md)
 - [06 - Installation Guide](docs/06%20-%20Installation%20Guide.md)
@@ -196,7 +196,7 @@ The product direction is:
 - [18 - Licensing](docs/18%20-%20Licensing.md)
 - [19 - Roadmap](docs/19%20-%20Roadmap.md)
 - [20 - FAQ](docs/20%20-%20FAQ.md)
-- [21 - Agentic AI and Likha Agents](docs/21%20-%20Agents.md)
+- [21 - Agentic AI and Kora Agents](docs/21%20-%20Agents.md)
 - [22 - Agent Infrastructure](docs/22%20-%20Agent%20Infrastructure.md)
 - [Database Settings](docs/Database%20Settings.md)
 - [AI Screen Control Activities](docs/Activities/AI%20Screen%20Control/README.md)
@@ -214,7 +214,7 @@ Image repository:
 
 ### Current MVP
 
-This documentation set describes the current MVP state of Likha.
+This documentation set describes the current MVP state of Kora.
 
 Included areas:
 

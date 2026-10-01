@@ -4,9 +4,9 @@ layout: default
 
 <nav class="doc-home-link"><a href="{{ '/' | relative_url }}">&larr; Go back Home</a></nav>
 
-# Agentic AI and Likha Agents
+# Agentic AI and Kora Agents
 
-Likha Agents combine an AI model, reusable knowledge, session memory, explicitly approved Likha flows, and controlled specialist-agent delegation. Agents decide when an action is needed; flows remain the deterministic execution boundary.
+Kora Agents combine an AI model, reusable knowledge, session memory, explicitly approved Kora flows, and controlled specialist-agent delegation. Agents decide when an action is needed; flows remain the deterministic execution boundary.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Configure an OpenAI-compatible endpoint, API key, and default model under **Cont
 4. Select **Browse files** to choose one or multiple files. Selected files are added to Sources automatically. You can also enter a local folder or `https://` URL per line.
 5. Select **Save and ingest**.
 
-Supported sources are TXT, Markdown, CSV, JSON, HTML, PDF, and DOCX. Folders are scanned recursively. Likha stores extracted text in the selected Likha database and retrieves the most relevant passages for each message.
+Supported sources are TXT, Markdown, CSV, JSON, HTML, PDF, and DOCX. Folders are scanned recursively. Kora stores extracted text in the selected Kora database and retrieves the most relevant passages for each message.
 
 ## Create an Agent
 
@@ -53,7 +53,7 @@ Configure these limits per agent:
 - **Maximum agent calls:** one to three specialist calls for one message.
 - **Delegation depth:** one or two levels below the current supervisor.
 
-Likha blocks self-calls and circular chains. A child agent cannot gain flow or agent permissions from its parent. If a specialist calls a side-effecting flow, the normal per-message approval rule still applies.
+Kora blocks self-calls and circular chains. A child agent cannot gain flow or agent permissions from its parent. If a specialist calls a side-effecting flow, the normal per-message approval rule still applies.
 
 Every attempt is written to `agent_delegations` with the parent and child agents, their sessions, the focused task, depth, status, result, citations, nested tool traces, and timestamps.
 
@@ -94,7 +94,7 @@ The playground keeps memory only within the current session. Start a new session
 
 Side-effecting and high-risk flows require the **Approve side-effecting flows for this message** checkbox. Approval applies only to the submitted message and is cleared afterward. Critical flows remain blocked when the Critical-flow guardrail is enabled.
 
-An agent can make no more than five flow calls and three specialist-agent calls for one message. Every flow run remains visible in **Runs & Logs**, and agent sessions store responses, citations, flow traces, and delegation traces in the selected Likha database.
+An agent can make no more than five flow calls and three specialist-agent calls for one message. Every flow run remains visible in **Runs & Logs**, and agent sessions store responses, citations, flow traces, and delegation traces in the selected Kora database.
 
 ## Publish and Embed Locally
 
@@ -104,9 +104,9 @@ An agent can make no more than five flow calls and three specialist-agent calls 
 4. Select **Publish embed**.
 5. Use **Open** to test the standalone chat or **Copy code** to copy the generated script tag.
 
-The embedded page, widget script, conversations, knowledge, and flow runs are served by the current Likha installation. Records use SQLite by default or the PostgreSQL or Microsoft SQL Server database selected under **Control Room > Database**.
+The embedded page, widget script, conversations, knowledge, and flow runs are served by the current Kora installation. Records use SQLite by default or the PostgreSQL or Microsoft SQL Server database selected under **Control Room > Database**.
 
-An embed URL containing `127.0.0.1` or `localhost` works only on the same computer. For an intranet website, use a Likha machine reachable from that network and its hostname or LAN IP. LAN or internet exposure must be enabled deliberately and protected with HTTPS, authentication, rate limits, Windows Firewall rules, and restricted allowed origins.
+An embed URL containing `127.0.0.1` or `localhost` works only on the same computer. For an intranet website, use a Kora machine reachable from that network and its hostname or LAN IP. LAN or internet exposure must be enabled deliberately and protected with HTTPS, authentication, rate limits, Windows Firewall rules, and restricted allowed origins.
 
 ## Related Documentation
 

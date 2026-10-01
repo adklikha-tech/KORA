@@ -6,7 +6,7 @@ layout: default
 
 # Event Triggers guide
 
-![Likha Control Room - Robots](../../images/control-room-robots.png)
+![Kora Control Room - Robots](../../images/control-room-robots.png)
 
 Event triggers let you define when a saved flow should start from the Control Room Robots page.
 
@@ -225,7 +225,7 @@ Poll interval seconds: 30
 
 ## Webhook
 
-Use this trigger when another system sends an event notification to Likha.
+Use this trigger when another system sends an event notification to Kora.
 
 Parameters:
 
@@ -336,8 +336,8 @@ If a trigger does not fire:
 
 - Confirm the trigger is enabled.
 - Confirm the selected flow still exists.
-- Confirm `LikhaRobotService` is running.
-- Confirm `LikhaUserAgent` is running for browser, desktop, mouse, keyboard, or screen automation.
+- Confirm `KoraRobotService` is running.
+- Confirm `KoraUserAgent` is running for browser, desktop, mouse, keyboard, or screen automation.
 - Confirm file and folder paths exist on the machine that watches them.
 - Confirm queue names match exactly.
 - Confirm webhook callers can reach the Control Room URL.

@@ -4,7 +4,7 @@
 {% assign canonical_home_url = '/' | relative_url %}
 {% assign page_title = page.title | default: page.name | remove: '.md' | remove: '.html' %}
 {% assign page_description = page.description | default: site.description %}
-{% assign favicon_path = docs_root | append: '/Logo/likha.ico' %}
+{% assign favicon_path = docs_root | append: '/Logo/kora.ico' %}
 {% assign flow_logo_path = docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567.png' %}
 {% assign social_image_path = docs_root | append: '/images/process-designer.png' %}
 <!doctype html>
@@ -14,20 +14,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0b1830">
     <meta name="color-scheme" content="light">
-    <title>{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Likha{% endif %}</title>
+    <title>{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Kora{% endif %}</title>
     <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <link rel="icon" href="{{ favicon_path | relative_url }}" sizes="any">
     <link rel="stylesheet" href="{{ docs_root | append: '/assets/css/style.css' | relative_url }}">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Likha">
-    <meta property="og:title" content="{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Likha{% endif %}">
+    <meta property="og:site_name" content="Kora">
+    <meta property="og:title" content="{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Kora{% endif %}">
     <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <meta property="og:image" content="{{ site.url }}{{ social_image_path | relative_url }}">
-    <meta property="og:image:alt" content="Likha Process Designer interface">
+    <meta property="og:image:alt" content="Kora Process Designer interface">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Likha{% endif %}">
+    <meta name="twitter:title" content="{% if page.page_class == 'home-page' %}{{ site.title }}{% else %}{{ page_title }} | Kora{% endif %}">
     <meta name="twitter:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
     <meta name="twitter:image" content="{{ site.url }}{{ social_image_path | relative_url }}">
   </head>
@@ -36,11 +36,11 @@
 
     <header class="site-header" data-site-header>
       <div class="header-inner">
-        <a class="brand" href="{{ canonical_home_url }}" aria-label="Likha home">
+        <a class="brand" href="{{ canonical_home_url }}" aria-label="Kora home">
           <span class="brand-mark" aria-hidden="true">
             <img src="{{ flow_logo_path | relative_url }}" alt="">
           </span>
-          <span class="brand-name">Likha</span>
+          <span class="brand-name">Kora</span>
           <span class="brand-edition">Beta</span>
         </a>
 
@@ -112,7 +112,7 @@
                 </a>
                 <a href="{{ canonical_home_url }}#video-demos-title">
                   <strong>Video demos</strong>
-                  <span>See real Likha automations in action.</span>
+                  <span>See real Kora automations in action.</span>
                 </a>
                 <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">
                   <strong>FAQ</strong>
@@ -143,7 +143,7 @@
         <aside class="docs-sidebar" aria-label="Documentation navigation">
           <div class="docs-sidebar-inner">
             <a class="docs-home" href="{{ docs_root | append: '/README.html' | relative_url }}">
-              <span>Likha documentation</span>
+              <span>Kora documentation</span>
               <small>Guides and references</small>
             </a>
 
@@ -181,7 +181,7 @@
             <details>
               <summary>Project</summary>
               <a href="{{ docs_root | append: '/01%20-%20Dev%27s%20Manifesto.html' | relative_url }}">Developer manifesto</a>
-              <a href="{{ docs_root | append: '/03%20-%20Why%20Likha.html' | relative_url }}">Why Likha</a>
+              <a href="{{ docs_root | append: '/03%20-%20Why%20Kora.html' | relative_url }}">Why Kora</a>
               <a href="{{ docs_root | append: '/19%20-%20Roadmap.html' | relative_url }}">Roadmap</a>
               <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">FAQ</a>
             </details>
@@ -205,7 +205,7 @@
         <div class="footer-brand">
           <a class="brand brand-footer" href="{{ canonical_home_url }}">
             <span class="brand-mark" aria-hidden="true"><img src="{{ flow_logo_path | relative_url }}" alt=""></span>
-            <span class="brand-name">Likha</span>
+            <span class="brand-name">Kora</span>
           </a>
           <p>Agentic Process Automation for teams that want governed AI, reliable execution, flexibility, and room to scale.</p>
         </div>
@@ -239,7 +239,7 @@
             <h2>Project</h2>
             <a href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener">GitHub</a>
             <a href="{{ docs_root | append: '/01%20-%20Dev%27s%20Manifesto.html' | relative_url }}">Manifesto</a>
-            <a href="{{ docs_root | append: '/03%20-%20Why%20Likha.html' | relative_url }}">Why Likha</a>
+            <a href="{{ docs_root | append: '/03%20-%20Why%20Kora.html' | relative_url }}">Why Kora</a>
             <a href="{{ docs_root | append: '/19%20-%20Roadmap.html' | relative_url }}">Roadmap</a>
             <a href="{{ docs_root | append: '/COPYRIGHT.html' | relative_url }}">Copyright</a>
           </div>
@@ -247,7 +247,7 @@
       </div>
 
       <div class="footer-bottom">
-        <span>&copy; {{ site.time | date: '%Y' }} Likha. All rights reserved.</span>
+        <span>&copy; {{ site.time | date: '%Y' }} Kora. All rights reserved.</span>
         <span>Agentic RPA, built for practical automation.</span>
       </div>
     </footer>
@@ -328,7 +328,7 @@
           var guides = [
             ["01 - Dev's Manifesto.html", "Developer Manifesto"],
             ["02 - Product Overview.html", "Product Overview"],
-            ["03 - Why Likha.html", "Why Likha"],
+            ["03 - Why Kora.html", "Why Kora"],
             ["04 - Architecture.html", "Architecture"],
             ["05 - Features.html", "Features"],
             ["06 - Installation Guide.html", "Installation Guide"],
@@ -346,7 +346,7 @@
             ["18 - Licensing.html", "Licensing"],
             ["19 - Roadmap.html", "Roadmap"],
             ["20 - FAQ.html", "FAQ"],
-            ["21 - Agents.html", "Agentic AI and Likha Agents"],
+            ["21 - Agents.html", "Agentic AI and Kora Agents"],
             ["22 - Agent Infrastructure.html", "Agent Infrastructure"]
           ];
           var filename = decodeURIComponent(window.location.pathname.split('/').pop());

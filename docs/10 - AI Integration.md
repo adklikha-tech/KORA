@@ -6,17 +6,17 @@ layout: default
 
 # AI Integration
 
-Likha AI activities use Control Room AI Settings. This lets users bring their own provider, endpoint, key, model, and request settings.
+Kora AI activities use Control Room AI Settings. This lets users bring their own provider, endpoint, key, model, and request settings.
 
-Likha supports a Bring Your Own Key model for AI features. This means each user or company connects their own AI provider account instead of sharing a central Likha-owned AI subscription.
+Kora supports a Bring Your Own Key model for AI features. This means each user or company connects their own AI provider account instead of sharing a central Kora-owned AI subscription.
 
-These settings also power Likha Agents. An agent can use the configured model for goal interpretation, context-aware decisions, and tool selection while the Likha runtime performs approved automation actions.
+These settings also power Kora Agents. An agent can use the configured model for goal interpretation, context-aware decisions, and tool selection while the Kora runtime performs approved automation actions.
 
-![Likha Control Room - AI Settings](images/control-room-ai-settings.png)
+![Kora Control Room - AI Settings](images/control-room-ai-settings.png)
 
 ## What This Is For
 
-AI Settings are used by AI-powered activities inside Likha, including:
+AI Settings are used by AI-powered activities inside Kora, including:
 
 - AI Prompt
 - AI Vision
@@ -30,7 +30,7 @@ AI Settings are used by AI-powered activities inside Likha, including:
 - AI Read Screen
 - AI Verify Screen
 - AI Extract Details From
-- Likha Copilot, when enabled
+- Kora Copilot, when enabled
 
 Once configured, these activities can reuse the same provider endpoint, API key, model, temperature, and token settings.
 
@@ -45,7 +45,7 @@ Bring Your Own Key gives customers control over:
 - provider billing
 - organization-level access controls
 
-Likha does not need to resell AI credits for this mode. The customer pays their AI provider directly.
+Kora does not need to resell AI credits for this mode. The customer pays their AI provider directly.
 
 ## Supported Provider Type
 
@@ -79,7 +79,7 @@ AI Screen Control uses a vision-capable model together with screenshots, OCR, an
 - [AI Verify Screen](Activities/AI%20Screen%20Control/AI%20Verify%20Screen.html)
 - [AI Extract Details From](Activities/AI%20Screen%20Control/AI%20Extract%20Details%20From.html)
 
-Keep the target application visible and unlocked. In unattended or VM execution, the Likha User Agent must run inside the active Windows user session.
+Keep the target application visible and unlocked. In unattended or VM execution, the Kora User Agent must run inside the active Windows user session.
 
 ## Smart Rule-Based Operations
 
@@ -120,13 +120,13 @@ Configure:
 
 ## Agents and AI Activities
 
-AI activities perform focused tasks inside a workflow. A Likha Agent operates at a higher level: it receives a goal, uses context to select from approved workflows or activities, observes each result, and decides whether to continue, finish, or ask for human input.
+AI activities perform focused tasks inside a workflow. A Kora Agent operates at a higher level: it receives a goal, uses context to select from approved workflows or activities, observes each result, and decides whether to continue, finish, or ask for human input.
 
 The current Agent Builder supports knowledge-base retrieval and citations, per-agent model settings, version history, declared flow inputs and outputs, specialist-agent delegation, deterministic guardrails, a test playground, and locally published embedded chat.
 
 See:
 
-- [Agentic AI and Likha Agents](21%20-%20Agents.html)
+- [Agentic AI and Kora Agents](21%20-%20Agents.html)
 - [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
 
 ## Notes

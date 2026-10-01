@@ -6,7 +6,7 @@ layout: default
 
 # Desktop Click
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Desktop
 
@@ -37,7 +37,7 @@ Desktop Click tries selected fallback methods in this order:
 2. OCR target text match.
 3. X/Y coordinates, only when `fallback_coordinates` is enabled.
 
-Image and OCR fallback are searched inside the picked application window when Likha can identify it, or near the picked desktop element when available. Likha only uses the x/y fallback point when `use x/y fallback` is checked.
+Image and OCR fallback are searched inside the picked application window when Kora can identify it, or near the picked desktop element when available. Kora only uses the x/y fallback point when `use x/y fallback` is checked.
 
 If you enable OCR/image fallback, either pick a fallback image, enter OCR target text, or use both.
 

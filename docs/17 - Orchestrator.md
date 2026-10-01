@@ -6,9 +6,9 @@ layout: default
 
 # Orchestrator
 
-The Likha orchestrator capabilities live in Control Room and the robot runtime.
+The Kora orchestrator capabilities live in Control Room and the robot runtime.
 
-![Likha Control Room - Robots](images/control-room-robots.png)
+![Kora Control Room - Robots](images/control-room-robots.png)
 
 ## Responsibilities
 
@@ -25,8 +25,8 @@ The Likha orchestrator capabilities live in Control Room and the robot runtime.
 
 Unattended execution uses:
 
-- `LikhaRobotService`
-- `LikhaUserAgent`
+- `KoraRobotService`
+- `KoraUserAgent`
 - Control Room robot jobs
 - Robot resources and heartbeats
 

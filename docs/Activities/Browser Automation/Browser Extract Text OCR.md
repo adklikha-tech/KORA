@@ -6,7 +6,7 @@ layout: default
 
 # Browser Extract Text OCR
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Browser
 

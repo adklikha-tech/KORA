@@ -6,7 +6,7 @@ layout: default
 
 # Convert Text to Date Time
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Data
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Book a Demo
-description: Request a Likha Agentic Process Automation demonstration covering AI agents, RPA, document processing, integrations, and deployment options.
+description: Request a Kora Agentic Process Automation demonstration covering AI agents, RPA, document processing, integrations, and deployment options.
 page_class: marketing-page
 ---
 {% assign docs_root = site.docs_root %}
@@ -9,8 +9,8 @@ page_class: marketing-page
 <section class="marketing-page-hero">
   <div class="section-shell">
     <p class="eyebrow">Book a Demo</p>
-    <h1>See how Likha fits your automation work</h1>
-    <p>A Likha demonstration can be tailored around the workflows, applications, documents, approvals, integrations, and deployment model that matter to your team.</p>
+    <h1>See how Kora fits your automation work</h1>
+    <p>A Kora demonstration can be tailored around the workflows, applications, documents, approvals, integrations, and deployment model that matter to your team.</p>
   </div>
 </section>
 
@@ -19,7 +19,7 @@ page_class: marketing-page
     <div class="section-heading">
       <p class="section-kicker">What we can demonstrate</p>
       <h2>From intelligent decisions to reliable execution</h2>
-      <p>Explore how Likha brings governed AI agents and low-code automation together as one practical Agentic RPA platform.</p>
+      <p>Explore how Kora brings governed AI agents and low-code automation together as one practical Agentic RPA platform.</p>
     </div>
 
     <div class="marketing-card-grid">
@@ -33,11 +33,11 @@ page_class: marketing-page
 
     <div class="contact-panel">
       <div>
-        <h2>Request a Likha demonstration</h2>
+        <h2>Request a Kora demonstration</h2>
         <p>Email the project owner at <a href="mailto:Jearomev@yahoo.com">Jearomev@yahoo.com</a> with a short description of the process you would like to explore.</p>
       </div>
       <div class="hero-actions">
-        <a class="button button-primary" href="mailto:Jearomev@yahoo.com?subject=Likha%20Demo%20Request">Email the project owner</a>
+        <a class="button button-primary" href="mailto:Jearomev@yahoo.com?subject=Kora%20Demo%20Request">Email the project owner</a>
         <a class="button button-secondary" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
       </div>
     </div>

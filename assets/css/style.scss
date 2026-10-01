@@ -3,22 +3,22 @@
 
 @import "{{ site.theme }}";
 
-.likha-logo-stage {
+.kora-logo-stage {
   position: relative;
   width: min(340px, 80vw);
   margin: 1.5rem auto 2rem;
   padding: 1rem;
 }
 
-.likha-logo-stage img {
+.kora-logo-stage img {
   display: block;
   width: 100%;
   height: auto;
-  animation: likha-logo-float 3.2s ease-in-out infinite;
+  animation: kora-logo-float 3.2s ease-in-out infinite;
   filter: drop-shadow(0 16px 20px rgba(0, 92, 92, 0.18));
 }
 
-.likha-animated-cursor {
+.kora-animated-cursor {
   position: absolute;
   left: 72%;
   top: 70%;
@@ -28,10 +28,10 @@
   clip-path: polygon(0 0, 88% 70%, 54% 73%, 71% 100%, 56% 100%, 40% 76%, 16% 100%);
   filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.25));
   transform-origin: 5px 5px;
-  animation: likha-cursor-move 3.2s ease-in-out infinite;
+  animation: kora-cursor-move 3.2s ease-in-out infinite;
 }
 
-.likha-animated-cursor::after {
+.kora-animated-cursor::after {
   content: "";
   position: absolute;
   left: -10px;
@@ -41,7 +41,7 @@
   border: 3px solid #ffad19;
   border-radius: 50%;
   opacity: 0;
-  animation: likha-click-pulse 3.2s ease-out infinite;
+  animation: kora-click-pulse 3.2s ease-out infinite;
 }
 
 .doc-home-link {
@@ -99,12 +99,12 @@
   margin: 0;
 }
 
-@keyframes likha-logo-float {
+@keyframes kora-logo-float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
 }
 
-@keyframes likha-cursor-move {
+@keyframes kora-cursor-move {
   0%, 18% { transform: translate(85px, 65px) scale(1); }
   48%, 66% { transform: translate(0, 0) scale(1); }
   72% { transform: translate(0, 0) scale(0.86); }
@@ -112,16 +112,16 @@
   100% { transform: translate(85px, 65px) scale(1); }
 }
 
-@keyframes likha-click-pulse {
+@keyframes kora-click-pulse {
   0%, 68% { transform: scale(0.25); opacity: 0; }
   72% { opacity: 0.9; }
   88%, 100% { transform: scale(2.1); opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .likha-logo-stage img,
-  .likha-animated-cursor,
-  .likha-animated-cursor::after {
+  .kora-logo-stage img,
+  .kora-animated-cursor,
+  .kora-animated-cursor::after {
     animation: none;
   }
 }

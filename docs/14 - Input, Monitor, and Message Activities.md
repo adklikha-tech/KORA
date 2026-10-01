@@ -26,5 +26,5 @@ These activities interact with the active Windows session.
 
 ## Runtime Notes
 
-These activities require an interactive Windows user session. In unattended VM mode, run `LikhaUserAgent` inside the robot user's logged-in desktop session.
+These activities require an interactive Windows user session. In unattended VM mode, run `KoraUserAgent` inside the robot user's logged-in desktop session.
 

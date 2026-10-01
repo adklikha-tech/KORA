@@ -6,7 +6,7 @@ layout: default
 
 # Excel > Execute Macro
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 Runs a VBA macro from an open Excel instance and saves the macro return value as text.
 

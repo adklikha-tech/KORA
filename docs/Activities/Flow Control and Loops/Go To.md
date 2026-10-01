@@ -6,7 +6,7 @@ layout: default
 
 # Go To
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Flow control
 

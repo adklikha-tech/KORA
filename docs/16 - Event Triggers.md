@@ -35,7 +35,7 @@ Triggered runs are unattended jobs. They should be handled by the robot runtime 
 
 ## Required Runtime
 
-- `LikhaRobotService` supervises trigger definitions.
-- `LikhaUserAgent` is required for interactive desktop/browser/UI work.
+- `KoraRobotService` supervises trigger definitions.
+- `KoraUserAgent` is required for interactive desktop/browser/UI work.
 - VM robot setup requires Control Room URL and robot token configuration.
 

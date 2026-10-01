@@ -6,7 +6,7 @@ layout: default
 
 # Normalize Text
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Smart operations
 

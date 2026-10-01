@@ -33,4 +33,4 @@ Click Action: left click
 Output: ClickSucceeded
 ```
 
-If the visible layout may move, use AI Find Element immediately before this activity. Likha refuses targets inside its own application window.
+If the visible layout may move, use AI Find Element immediately before this activity. Kora refuses targets inside its own application window.

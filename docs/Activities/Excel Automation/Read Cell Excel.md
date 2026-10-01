@@ -6,7 +6,7 @@ layout: default
 
 # Excel > Read Cell
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 Reads one cell from an open Excel instance and saves the value as text.
 

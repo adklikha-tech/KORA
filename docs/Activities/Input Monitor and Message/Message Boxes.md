@@ -4,7 +4,7 @@ layout: default
 
 <nav class="doc-home-link"><a href="{{ '/' | relative_url }}">&larr; Go back Home</a></nav>
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 ## Message Boxes activities
 

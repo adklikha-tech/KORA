@@ -8,9 +8,9 @@ layout: default
 
 ## Build And Run A Flow
 
-![Likha Process Designer](images/process-designer.png)
+![Kora Process Designer](images/process-designer.png)
 
-1. Start Likha with `run_desktop.bat`.
+1. Start Kora with `run_desktop.bat`.
 2. Open Process Designer.
 3. Add activities from the left activity library.
 4. Configure each activity in Properties.
@@ -22,7 +22,7 @@ layout: default
 
 Control Room is the operational area for managing agents, knowledge bases, saved workflows, schedules, queues, robots, runs, logs, and platform settings. Its sidebar groups pages under Automation, Operations, and Administration.
 
-![Likha Control Room - Flows](images/control-room-flows.png)
+![Kora Control Room - Flows](images/control-room-flows.png)
 
 ## Flows
 
@@ -34,13 +34,13 @@ Use Agents to create knowledge bases, build versioned agents, choose approved fl
 
 See:
 
-[Agentic AI and Likha Agents](21%20-%20Agents.html)
+[Agentic AI and Kora Agents](21%20-%20Agents.html)
 
 ## Scheduler
 
 Use Scheduler to run saved workflows at a configured time or recurrence.
 
-![Likha Control Room - Scheduler](images/control-room-scheduler.png)
+![Kora Control Room - Scheduler](images/control-room-scheduler.png)
 
 Scheduler-created runs are unattended jobs.
 
@@ -48,7 +48,7 @@ Scheduler-created runs are unattended jobs.
 
 Use Run Logs to review:
 
-![Likha Control Room - Run Logs](images/control-room-runs.png)
+![Kora Control Room - Run Logs](images/control-room-runs.png)
 
 - Run status
 - Step logs
@@ -71,7 +71,7 @@ Typical examples:
 
 Use Queue Management to create queues, add queue items, process pending work, and update item status.
 
-![Likha Control Room - Queue Management](images/control-room-queues.png)
+![Kora Control Room - Queue Management](images/control-room-queues.png)
 
 See:
 
@@ -81,7 +81,7 @@ See:
 
 Use Robots to monitor robot resources, heartbeats, user agents, robot jobs, and event triggers.
 
-![Likha Control Room - Robots](images/control-room-robots.png)
+![Kora Control Room - Robots](images/control-room-robots.png)
 
 See:
 
@@ -93,7 +93,7 @@ See:
 
 Use AI Settings to configure the provider, endpoint URL, API key, model, temperature, and max tokens used by AI activities.
 
-![Likha Control Room - AI Settings](images/control-room-ai-settings.png)
+![Kora Control Room - AI Settings](images/control-room-ai-settings.png)
 
 See:
 
@@ -101,7 +101,7 @@ See:
 
 ## Database
 
-Use Database to keep the default SQLite store or configure PostgreSQL/Supabase or Microsoft SQL Server. Test the connection, save the selection, and restart Likha to activate it. Switching databases does not migrate existing data.
+Use Database to keep the default SQLite store or configure PostgreSQL/Supabase or Microsoft SQL Server. Test the connection, save the selection, and restart Kora to activate it. Switching databases does not migrate existing data.
 
 See:
 

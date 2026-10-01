@@ -4,13 +4,13 @@ layout: default
 
 <nav class="doc-home-link"><a href="{{ '/' | relative_url }}">&larr; Go back Home</a></nav>
 
-## LikhaRobotService and LikhaUserAgent
+## KoraRobotService and KoraUserAgent
 
-Likha unattended runtime has two MVP components.
+Kora unattended runtime has two MVP components.
 
-### LikhaRobotService
+### KoraRobotService
 
-`LikhaRobotService` is the background supervisor. It is designed to run without the Control Room UI open.
+`KoraRobotService` is the background supervisor. It is designed to run without the Control Room UI open.
 
 Responsibilities:
 
@@ -39,9 +39,9 @@ Remove the Windows service:
 uninstall_robot_service.bat
 ```
 
-### LikhaUserAgent
+### KoraUserAgent
 
-`LikhaUserAgent` must run inside a logged-in Windows user session. It executes jobs that need an interactive desktop, browser, mouse, keyboard, monitor, or message box session.
+`KoraUserAgent` must run inside a logged-in Windows user session. It executes jobs that need an interactive desktop, browser, mouse, keyboard, monitor, or message box session.
 
 Run it from the robot user account:
 
@@ -51,9 +51,9 @@ run_user_agent.bat
 
 ### Recommended VM setup
 
-1. Install Likha on the VM.
-2. Install and start `LikhaRobotService`.
-3. Configure `LikhaUserAgent` to start when the robot Windows account logs in.
+1. Install Kora on the VM.
+2. Install and start `KoraRobotService`.
+3. Configure `KoraUserAgent` to start when the robot Windows account logs in.
 4. Keep the VM awake and logged in for desktop/browser automation.
 5. Use schedules or queued runs to trigger work.
 

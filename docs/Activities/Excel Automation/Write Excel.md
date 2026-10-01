@@ -6,7 +6,7 @@ layout: default
 
 # Write Excel Range
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Excel
 

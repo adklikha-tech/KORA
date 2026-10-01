@@ -8,7 +8,7 @@ layout: default
 
 Browser automation uses BrowserInstance variables and Playwright-backed selectors.
 
-![Likha Process Designer](images/process-designer.png)
+![Kora Process Designer](images/process-designer.png)
 
 ## Browser Activities
 

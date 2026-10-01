@@ -6,7 +6,7 @@ layout: default
 
 # Browser Set Drop down list
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 **Activity group:** Browser
 

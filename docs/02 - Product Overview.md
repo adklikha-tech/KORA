@@ -6,13 +6,13 @@ layout: default
 
 # Product Overview
 
-Likha is a Windows-first Agentic Process Automation platform—also called Agentic RPA—for building, running, and monitoring governed AI agents and deterministic workflows.
+Kora is a Windows-first Agentic Process Automation platform—also called Agentic RPA—for building, running, and monitoring governed AI agents and deterministic workflows.
 
 It combines AI reasoning with a low-code Process Designer, reusable automation flows, AI Screen Control, Control Room, and robot runtimes. Teams can use deterministic RPA for predictable steps and agents for work that requires context, tool selection, and adaptation.
 
 ## What Agentic Process Automation Means
 
-Agentic Process Automation combines goal-driven AI agents with governed workflow execution. Agents interpret goals, use approved knowledge and tools, and decide what should happen next. Likha flows and robot runtimes perform the resulting desktop, browser, document, data, and integration work under visible rules, approvals, logs, and operational controls.
+Agentic Process Automation combines goal-driven AI agents with governed workflow execution. Agents interpret goals, use approved knowledge and tools, and decide what should happen next. Kora flows and robot runtimes perform the resulting desktop, browser, document, data, and integration work under visible rules, approvals, logs, and operational controls.
 
 It supports:
 
@@ -47,12 +47,12 @@ It supports:
 - Builder: creates flows in Process Designer.
 - Agent builder: defines an agent's purpose, instructions, tools, limits, and approval points.
 - Operator: monitors runs, queues, schedules, and robot status in Control Room.
-- Robot VM administrator: configures `LikhaRobotService`, `LikhaUserAgent`, and remote robot settings.
+- Robot VM administrator: configures `KoraRobotService`, `KoraUserAgent`, and remote robot settings.
 
 ## Existing References
 
 - [README.md](../README.html)
-- [Agentic AI and Likha Agents](21%20-%20Agents.html)
+- [Agentic AI and Kora Agents](21%20-%20Agents.html)
 - [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
 - [Database Settings](Database%20Settings.html)
 - [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)

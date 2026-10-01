@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Agentic AI, Agent Workflows, and Automation: How They Work Together"
-description: Learn how Likha combines Agentic AI, governed agent workflows, and automation to turn goals into completed business outcomes.
+description: Learn how Kora combines Agentic AI, governed agent workflows, and automation to turn goals into completed business outcomes.
 page_class: marketing-page blog-article-page
 ---
 {% assign docs_root = site.docs_root %}
@@ -12,14 +12,14 @@ page_class: marketing-page blog-article-page
       <a class="blog-back-link" href="{{ docs_root | append: '/blog.html' | relative_url }}"><span aria-hidden="true">←</span> Back to the blog</a>
       <div class="blog-meta"><span>Agentic AI</span><time datetime="2026-09-02">September 2, 2026</time></div>
       <h1>Agentic AI, agent workflows, and automation: how they work together</h1>
-      <p class="blog-article-lead">Likha combines intelligence, coordination, and execution so an AI system can do more than provide an answer—it can pursue a goal within defined boundaries and help bring the work to completion.</p>
+      <p class="blog-article-lead">Kora combines intelligence, coordination, and execution so an AI system can do more than provide an answer—it can pursue a goal within defined boundaries and help bring the work to completion.</p>
     </div>
   </header>
 
   <div class="section-shell blog-article-shell blog-article-body">
     <figure class="blog-article-figure">
-      <img src="{{ docs_root | append: '/images/Agentic%20AI.png' | relative_url }}" alt="Likha Agent Builder showing agent configuration, knowledge, tools, and a test playground" width="1484" height="901">
-      <figcaption>Likha brings agent instructions, knowledge, approved tools, and testing into one governed workspace.</figcaption>
+      <img src="{{ docs_root | append: '/images/Agentic%20AI.png' | relative_url }}" alt="Kora Agent Builder showing agent configuration, knowledge, tools, and a test playground" width="1484" height="901">
+      <figcaption>Kora brings agent instructions, knowledge, approved tools, and testing into one governed workspace.</figcaption>
     </figure>
 
     <h2>Agentic AI provides the intelligence</h2>
@@ -44,15 +44,15 @@ page_class: marketing-page blog-article-page
     <p>This combination provides flexibility where judgment is needed and consistency where execution must be dependable.</p>
 
     <h2>Designed for governed outcomes</h2>
-    <p>Likha is designed around governed autonomy rather than unrestricted action. Teams determine what agents can know, which tools they can use, when human approval is required, and what execution information should be retained for review.</p>
+    <p>Kora is designed around governed autonomy rather than unrestricted action. Teams determine what agents can know, which tools they can use, when human approval is required, and what execution information should be retained for review.</p>
     <p>The result is an intelligent operating model: give AI a goal, provide a governed path, and connect it to the tools required to complete meaningful work.</p>
 
     <div class="blog-article-cta">
       <div>
-        <strong>Explore Agentic AI in Likha</strong>
+        <strong>Explore Agentic AI in Kora</strong>
         <p>See how agents use instructions, knowledge, tools, memory, and specialist collaboration.</p>
       </div>
-      <a class="button button-primary" href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Explore Likha Agents</a>
+      <a class="button button-primary" href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Explore Kora Agents</a>
     </div>
   </div>
 </article>

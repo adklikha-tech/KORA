@@ -6,7 +6,7 @@ layout: default
 
 # Features
 
-Likha delivers Agentic Process Automation by combining deterministic RPA with Agentic AI. Builders can create fixed workflows for predictable processes, goal-driven agents for variable work, or hybrid automations that use both.
+Kora delivers Agentic Process Automation by combining deterministic RPA with Agentic AI. Builders can create fixed workflows for predictable processes, goal-driven agents for variable work, or hybrid automations that use both.
 
 ## Agents
 
@@ -20,7 +20,7 @@ Likha delivers Agentic Process Automation by combining deterministic RPA with Ag
 - Publish a standalone local chat and copy website embed code with allowed-origin settings.
 - Preserve versions, sessions, citations, flow traces, delegation traces, and audit events.
 
-See [Agentic AI and Likha Agents](21%20-%20Agents.html).
+See [Agentic AI and Kora Agents](21%20-%20Agents.html).
 
 ## Agent Infrastructure
 
@@ -29,7 +29,7 @@ See [Agentic AI and Likha Agents](21%20-%20Agents.html).
 - Control Room queues, jobs, logs, AI settings, database settings, and robot visibility.
 - Local, private VM, and distributed robot execution.
 - Runtime limits, approval points, credentials, and audit boundaries.
-- Active Windows-session execution through Likha User Agent for UI work.
+- Active Windows-session execution through Kora User Agent for UI work.
 
 See [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
 
@@ -66,7 +66,7 @@ See [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
 - PostgreSQL and Supabase connection URLs are supported for shared deployments.
 - Microsoft SQL Server supports Windows Authentication or SQL Login through ODBC Driver 18.
 - Connection testing is available before saving.
-- PostgreSQL URLs and SQL Login passwords are encrypted with a key local to the Likha installation.
+- PostgreSQL URLs and SQL Login passwords are encrypted with a key local to the Kora installation.
 - Changing the selected database takes effect after restart and does not migrate existing records.
 
 See [Database Settings](Database%20Settings.html).

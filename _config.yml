@@ -1,10 +1,10 @@
-title: Likha | Agentic Process Automation
-description: Likha is an Agentic Process Automation (Agentic RPA) platform that combines governed AI agents with low-code desktop, browser, document, and workflow automation.
+title: Kora | Agentic Process Automation
+description: Kora is an Agentic Process Automation (Agentic RPA) platform that combines governed AI agents with low-code desktop, browser, document, and workflow automation.
 url: https://adklikha-tech.github.io
 baseurl: /KORA
 repository: adklikha-tech/KORA
 docs_root: /docs
-author: Likha
+author: Kora
 lang: en
 theme: jekyll-theme-cayman
 

@@ -6,13 +6,13 @@ layout: default
 
 # Agent Infrastructure
 
-Agent Infrastructure is the set of Likha services that lets agents use AI, knowledge, specialist agents, and automation flows safely across local workstations, robot machines, and private VM environments.
+Agent Infrastructure is the set of Kora services that lets agents use AI, knowledge, specialist agents, and automation flows safely across local workstations, robot machines, and private VM environments.
 
 ## Infrastructure Layers
 
 ```text
 User or business event
-  -> Likha Agent (goal, session memory, grounding, planning, tool selection)
+  -> Kora Agent (goal, session memory, grounding, planning, tool selection)
   -> Control Room (agent versions, guardrails, knowledge, flows, queues, jobs, logs, AI and database settings)
   -> Workflow engine (validated activity execution)
   -> Robot service and user agent (machine and Windows-session execution)
@@ -29,7 +29,7 @@ User or business event
 - **Control Room:** manages agents, flows, schedules, queues, robot jobs, global variables, logs, AI settings, database settings, and licensing.
 - **Workflow engine:** executes deterministic activities and returns structured outputs to the agent.
 - **Robot service:** receives and supervises unattended work on a robot machine.
-- **Likha User Agent:** performs browser, desktop, mouse, keyboard, monitor, message, and AI Screen Control work inside the active Windows user session.
+- **Kora User Agent:** performs browser, desktop, mouse, keyboard, monitor, message, and AI Screen Control work inside the active Windows user session.
 - **AI provider connection:** supplies the configured model through the Bring Your Own Key settings.
 - **Selected database:** stores agents, versions, sessions, knowledge, delegations, guardrail events, workflows, jobs, logs, queues, and settings in SQLite, PostgreSQL, or Microsoft SQL Server.
 - **Operational records:** preserve job state, logs, outputs, errors, citations, tool traces, delegation traces, guardrail events, and queue status for monitoring and audit.
@@ -42,7 +42,7 @@ The agent, designer, workflow engine, and SQLite data run on one Windows worksta
 
 ### Private Robot VM
 
-Control Room assigns work to one or more Windows robot VMs. Each UI-capable robot needs an active session with Likha User Agent running.
+Control Room assigns work to one or more Windows robot VMs. Each UI-capable robot needs an active session with Kora User Agent running.
 
 ### Distributed
 
@@ -64,11 +64,11 @@ Production agent deployments should define:
 
 ## Reliability Model
 
-Likha combines adaptive AI decisions with deterministic automation boundaries. Use agent reasoning where the input or screen can vary; use validated activities and flows for actions that must be repeatable. Use verification steps after important UI or data changes, and prefer structured outputs over free-form text between tools.
+Kora combines adaptive AI decisions with deterministic automation boundaries. Use agent reasoning where the input or screen can vary; use validated activities and flows for actions that must be repeatable. Use verification steps after important UI or data changes, and prefer structured outputs over free-form text between tools.
 
 ## Related Documentation
 
-- [Agentic AI and Likha Agents](21%20-%20Agents.html)
+- [Agentic AI and Kora Agents](21%20-%20Agents.html)
 - [Distributed Control Room and VM Robot Setup](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
 - [Robot Service and User Agent](Robot%20Service%20and%20User%20Agent.html)
 - [Orchestrator](17%20-%20Orchestrator.html)

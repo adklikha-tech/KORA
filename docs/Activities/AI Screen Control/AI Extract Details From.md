@@ -8,11 +8,11 @@ layout: default
 
 **Activity group:** AI Screen Control
 
-Extracts user-specified details from the selected application screen and saves them as a structured Object. The activity uses the vision model configured in Control Room AI Settings and sends a screenshot of the target window to that provider. Likha's own interface is excluded from the captured analysis area.
+Extracts user-specified details from the selected application screen and saves them as a structured Object. The activity uses the vision model configured in Control Room AI Settings and sends a screenshot of the target window to that provider. Kora's own interface is excluded from the captured analysis area.
 
 ## Properties
 
-- **Target Window:** `Automatic` selects the topmost visible non-Likha application. Enter part of a window title to select a specific application.
+- **Target Window:** `Automatic` selects the topmost visible non-Kora application. Enter part of a window title to select a specific application.
 - **What to Extract:** Explain the details to extract and the preferred field names or structure. Variables such as `{{RequestedFields}}` can be used.
 - **Output Object:** Object containing the extracted details; default `ExtractedDetails`. Requested details that are not visible are returned as `null`.
 - **StatusCode output:** AI provider HTTP status; default `AIExtractDetailsStatusCode`.

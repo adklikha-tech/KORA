@@ -6,7 +6,7 @@ layout: default
 
 # Screenshot Repository
 
-This folder stores product screenshots used by the Likha documentation.
+This folder stores product screenshots used by the Kora documentation.
 
 ## Current Screenshots
 

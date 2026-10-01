@@ -6,7 +6,7 @@ layout: default
 
 # AI Extract Documents Fields
 
-![Likha Control Room - AI Settings](../../images/control-room-ai-settings.png)
+![Kora Control Room - AI Settings](../../images/control-room-ai-settings.png)
 
 **Activity group:** AI Capabilities
 

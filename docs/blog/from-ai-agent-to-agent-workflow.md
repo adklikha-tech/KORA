@@ -40,7 +40,7 @@ page_class: marketing-page blog-article-page
     <div class="blog-article-cta">
       <div>
         <strong>Build with a governed foundation</strong>
-        <p>Learn about the runtime, storage, knowledge, tools, and operational model behind Likha Agents.</p>
+        <p>Learn about the runtime, storage, knowledge, tools, and operational model behind Kora Agents.</p>
       </div>
       <a class="button button-primary" href="{{ docs_root | append: '/22%20-%20Agent%20Infrastructure.html' | relative_url }}">View Agent Infrastructure</a>
     </div>

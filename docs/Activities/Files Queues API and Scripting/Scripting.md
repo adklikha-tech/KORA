@@ -4,7 +4,7 @@ layout: default
 
 <nav class="doc-home-link"><a href="{{ '/' | relative_url }}">&larr; Go back Home</a></nav>
 
-![Likha Control Room - Queue Management](../../images/control-room-queues.png)
+![Kora Control Room - Queue Management](../../images/control-room-queues.png)
 
 ## Scripting activities
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Likha Blog
-description: Ideas, product perspectives, and practical guidance about Agentic AI, agent workflows, and automation with Likha.
+title: Kora Blog
+description: Ideas, product perspectives, and practical guidance about Agentic AI, agent workflows, and automation with Kora.
 page_class: marketing-page blog-page
 ---
 {% assign docs_root = site.docs_root %}
@@ -9,7 +9,7 @@ page_class: marketing-page blog-page
 <section class="blog-hero">
   <div class="section-shell blog-hero-inner">
     <div>
-      <p class="eyebrow">Likha Blog</p>
+      <p class="eyebrow">Kora Blog</p>
       <h1>Ideas for building intelligent work</h1>
       <p>Explore practical perspectives on Agentic AI, agent workflows, governed autonomy, and the automation that turns decisions into outcomes.</p>
     </div>
@@ -21,7 +21,7 @@ page_class: marketing-page blog-page
     <p class="section-kicker">Featured article</p>
     <article class="blog-feature-card">
       <a class="blog-feature-image" href="{{ docs_root | append: '/blog/agentic-ai-agent-workflows-automation.html' | relative_url }}" aria-label="Read Agentic AI, agent workflows, and automation">
-        <img src="{{ docs_root | append: '/images/Agentic%20AI.png' | relative_url }}" alt="Likha Agent Builder showing agent configuration, knowledge, tools, and a test playground" width="1484" height="901">
+        <img src="{{ docs_root | append: '/images/Agentic%20AI.png' | relative_url }}" alt="Kora Agent Builder showing agent configuration, knowledge, tools, and a test playground" width="1484" height="901">
       </a>
       <div class="blog-feature-copy">
         <div class="blog-meta"><span>Agentic AI</span><time datetime="2026-09-02">September 2, 2026</time></div>
@@ -45,7 +45,7 @@ page_class: marketing-page blog-page
       <article class="blog-list-card">
         <div class="blog-meta"><span>Agentic AI</span><time datetime="2026-09-02">September 2, 2026</time></div>
         <h3><a href="{{ docs_root | append: '/blog/agentic-ai-agent-workflows-automation.html' | relative_url }}">Agentic AI, agent workflows, and automation: how they work together</a></h3>
-        <p>A clear look at the three layers that allow Likha to reason, coordinate, and act.</p>
+        <p>A clear look at the three layers that allow Kora to reason, coordinate, and act.</p>
         <a class="blog-read-link" href="{{ docs_root | append: '/blog/agentic-ai-agent-workflows-automation.html' | relative_url }}">Read article <span aria-hidden="true">→</span></a>
       </article>
 

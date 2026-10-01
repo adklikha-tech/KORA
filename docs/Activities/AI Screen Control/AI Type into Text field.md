@@ -35,4 +35,4 @@ Interval: 0.02
 Output: TypeSucceeded
 ```
 
-Likha first attempts Windows UI Automation and falls back to hardware coordinates when necessary.
+Kora first attempts Windows UI Automation and falls back to hardware coordinates when necessary.

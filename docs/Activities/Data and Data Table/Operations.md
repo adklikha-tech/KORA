@@ -6,7 +6,7 @@ layout: default
 
 # Operations
 
-![Likha Process Designer](../../images/process-designer.png)
+![Kora Process Designer](../../images/process-designer.png)
 
 Operations are expressions that can read variables directly by name. Do not wrap variables with `{{ }}` inside operation fields.
 

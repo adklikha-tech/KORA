@@ -34,7 +34,7 @@ page_class: home-page
         </div>
         <div class="product-preview-images" aria-label="Kora Flow Designer and Agentic AI interfaces">
           <img class="product-preview-slide product-preview-slide-flow" src="{{ docs_root | append: '/images/process-designer.png' | relative_url }}" alt="Kora Process Designer showing a visual automation workflow" width="1691" height="933">
-          <img class="product-preview-slide product-preview-slide-agent" src="{{ docs_root | append: '/images/Agentic%20AI.png' | relative_url }}" alt="Kora Agent Builder with knowledge bases and test playground" width="1484" height="901" loading="lazy">
+          <img class="product-preview-slide product-preview-slide-agent" src="{{ docs_root | append: '/images/control-room-agents.png' | relative_url }}" alt="Kora Agent Library with saved chat history and minimalist Agent Chat" width="1600" height="1000" loading="lazy">
         </div>
       </div>
 
@@ -71,7 +71,7 @@ page_class: home-page
       <article class="feature-card">
         <span class="feature-icon feature-icon-agent" aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/kora-icons.svg#bot' | relative_url }}"></use></svg></span>
         <h3>Agentic AI</h3>
-        <p>Create AI agents that reason, use approved tools, work with knowledge bases, retain session context, and collaborate with specialist agents.</p>
+        <p>Create AI agents with animated identities, saved conversations, prompt workflow visualization, approved tools, knowledge bases, and specialist delegation.</p>
         <a href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Discover Kora Agents</a>
       </article>
 
@@ -120,10 +120,10 @@ page_class: home-page
     </div>
 
     <figure class="split-visual">
-      <img src="{{ docs_root | append: '/images/control-room-flows.png' | relative_url }}" alt="Kora Control Room flows dashboard" width="1486" height="933" loading="lazy">
+      <img src="{{ docs_root | append: '/images/control-room-agent-activity.png' | relative_url }}" alt="Kora Runs and Logs Agent Activity audit trail" width="1600" height="1000" loading="lazy">
       <figcaption class="split-visual-caption">
-        <strong>Control Room</strong>
-        <span>Manage flows, operations, and runtime activity</span>
+        <strong>Runs &amp; Logs</strong>
+        <span>Review workflow runs and the complete agent activity trail</span>
       </figcaption>
     </figure>
   </div>

@@ -22,17 +22,20 @@ User or business event
 ## Core Components
 
 - **Agent runtime:** interprets the objective, manages session context, retrieves grounded knowledge, selects enabled flow or specialist-agent tools, and evaluates results.
-- **Agent Builder:** manages prompts, versions, model settings, grounding, memory, citations, tool permissions, delegation limits, guardrails, and local publishing.
+- **Agent Builder:** manages prompts, animated avatars, versions, model settings, grounding, memory, citations, tool permissions, delegation limits, guardrails, local prompt visualization, and publishing.
+- **Agent Chat:** stores conversation history, resumes the latest session, supports temporary flow attachments, and can pop the active conversation into a chat-only window.
 - **Knowledge bases:** ingest TXT, Markdown, CSV, JSON, HTML, PDF, DOCX, local folders, and HTTPS sources for passage retrieval and citations.
 - **Tool and flow registry:** exposes only the flows and specialist agents explicitly approved for an agent.
 - **Guardrails:** apply deterministic input, output, rate, prompt-injection, secret, destination, risk, and approval checks around agent work.
-- **Control Room:** manages agents, flows, schedules, queues, robot jobs, global variables, logs, AI settings, database settings, and licensing.
+- **Control Room:** manages agents, flows, schedules, queues, robot jobs, global variables, Workflow Runs, Agent Activity, AI settings, database settings, and licensing.
 - **Workflow engine:** executes deterministic activities and returns structured outputs to the agent.
 - **Robot service:** receives and supervises unattended work on a robot machine.
 - **Kora User Agent:** performs browser, desktop, mouse, keyboard, monitor, message, and AI Screen Control work inside the active Windows user session.
 - **AI provider connection:** supplies the configured model through the Bring Your Own Key settings.
 - **Selected database:** stores agents, versions, sessions, knowledge, delegations, guardrail events, workflows, jobs, logs, queues, and settings in SQLite, PostgreSQL, or Microsoft SQL Server.
-- **Operational records:** preserve job state, logs, outputs, errors, citations, tool traces, delegation traces, guardrail events, and queue status for monitoring and audit.
+- **Operational records:** preserve job state, logs, outputs, errors, chat sessions, citations, tool traces, approval requirements, delegation traces, guardrail events, and queue status for monitoring and audit.
+
+![Kora Runs & Logs - Agent Activity](images/control-room-agent-activity.png)
 
 ## Deployment Models
 

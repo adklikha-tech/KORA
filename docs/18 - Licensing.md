@@ -6,6 +6,8 @@ layout: default
 
 # Licensing
 
+![Kora Control Room - License](images/control-room-license.png)
+
 Placeholder.
 
 ![Kora Control Room - License](images/control-room-license.png)

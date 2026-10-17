@@ -104,6 +104,12 @@ Configure:
 - Temperature
 - Max tokens
 
+## Voice and Audio
+
+The same AI Settings page stores workspace-level Speech to Text and Text to Speech configuration. Test the transcription endpoint before using the microphone in Agent Chat. Kora sends recorded audio through its server so provider credentials are not returned to the browser.
+
+Normal text chat remains text-first: it does not automatically play replies or display a Listen control. For a continuous spoken conversation, enable Speech to Text and Text to Speech, enable speech for the agent, and turn on **Voice only** in Agent Chat. Leaving Voice only stops listening and returns to the standard composer.
+
 ## Typical Use Cases
 
 - Summarize extracted browser or document text.

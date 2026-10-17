@@ -22,7 +22,7 @@ Core capabilities:
 
 - Build versioned agents with knowledge bases, citations, session memory, approved flow tools, and specialist-agent delegation.
 - Apply deterministic agent guardrails, flow risk levels, per-message approvals, secret redaction, and destination restrictions.
-- Test agents in the playground and publish locally embedded chat experiences.
+- Chat with saved agents, reopen conversation history, pop out the active session, and publish locally embedded chat experiences.
 - Build flows visually in Process Designer.
 - Run flows interactively during development.
 - Schedule unattended runs.
@@ -44,7 +44,9 @@ Core capabilities:
 
 ### Agents
 
-Build goal-driven automations with grounded knowledge, citations, version history, typed flow tools, supervisor-to-specialist delegation, guardrails, a test playground, and local website embedding.
+Build goal-driven automations with animated identities, saved chat history, prompt workflow visualization, grounded knowledge, citations, typed flow tools, specialist delegation, contextual approvals, and local website embedding.
+
+![Kora Agent Library and Agent Chat](docs/images/control-room-agents.png)
 
 Start here:
 
@@ -238,6 +240,9 @@ Included areas:
 
 Recent improvements documented in this build:
 
+- Added animated agent avatars, latest-session subtitles, persistent chat history, a minimalist composer, and chat pop-out.
+- Added local system-prompt workflow visualization and contextual approval for attempted side-effecting flows.
+- Consolidated operational history under Runs & Logs with Workflow Runs and Agent Activity views.
 - Added the Agent Builder with knowledge ingestion, citations, versioning, typed flow tools, session memory, playground testing, and local embed publishing.
 - Added bounded supervisor-to-specialist agent delegation with separate child sessions, trace storage, cycle prevention, and inherited approval enforcement.
 - Added agent guardrails for prompt injection, sensitive data, rate and length limits, allowed destinations, High-risk approvals, Critical-risk blocking, and audit events.

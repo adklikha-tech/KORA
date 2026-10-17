@@ -30,7 +30,17 @@ Use Flows to create, edit, save, and run processes.
 
 ## Agents
 
-Use Agents to create knowledge bases, build versioned agents, choose approved flow and specialist-agent tools, configure guardrails, test conversations in the playground, and publish a local embedded chat.
+Use Agents to chat with saved AI agents or open the separate Agent Workspace for configuration and testing.
+
+![Kora Control Room - Agents](images/control-room-agents.png)
+
+1. Select **+** to create an agent, choose its avatar, and configure its system prompt.
+2. Select **Visualize prompt** to review a local workflow interpretation of the current prompt and selected capabilities.
+3. Save the agent, then single-click it in the library to chat. Double-click it to reopen Agent Builder.
+4. Use **Chat history** to reopen saved conversations, or use the pop-out icon for a dedicated chat window.
+5. Review the audit trail under **Runs & Logs > Agent Activity**.
+
+The subtitle below each library agent shows its latest chat session. Side-effecting flows ask for confirmation only when the agent attempts the action.
 
 See:
 
@@ -44,9 +54,9 @@ Use Scheduler to run saved workflows at a configured time or recurrence.
 
 Scheduler-created runs are unattended jobs.
 
-## Run Logs
+## Runs & Logs
 
-Use Run Logs to review:
+Use **Workflow Runs** to review:
 
 ![Kora Control Room - Run Logs](images/control-room-runs.png)
 
@@ -56,9 +66,15 @@ Use Run Logs to review:
 - Output variables
 - Robot execution details
 
+Use **Agent Activity** to search and filter agent sessions, messages, flow-tool calls, approval requirements, specialist delegations, guardrail events, and linked workflow runs.
+
+![Kora Control Room - Agent Activity](images/control-room-agent-activity.png)
+
 ## Global Variable
 
 Use Global Variables to store shared values that workflows can read at runtime.
+
+![Kora Control Room - Global Variables](images/control-room-global-variables.png)
 
 Typical examples:
 
@@ -103,6 +119,8 @@ See:
 
 Use Database to keep the default SQLite store or configure PostgreSQL/Supabase or Microsoft SQL Server. Test the connection, save the selection, and restart Kora to activate it. Switching databases does not migrate existing data.
 
+![Kora Control Room - Database](images/control-room-database.png)
+
 See:
 
 [Database Settings](Database%20Settings.html)
@@ -113,7 +131,9 @@ Use the theme button to switch Control Room and Process Designer between light a
 
 ## License
 
-Licensing is currently represented as a placeholder page:
+Use License to activate, refresh, and review the installation's license status.
+
+![Kora Control Room - License](images/control-room-license.png)
 
 [18 - Licensing.md](18%20-%20Licensing.html)
 

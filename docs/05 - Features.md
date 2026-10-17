@@ -11,16 +11,22 @@ Kora delivers Agentic Process Automation by combining deterministic RPA with Age
 ## Agents
 
 - Build versioned agents with a system prompt, welcome message, model override, temperature, grounding mode, and session-memory setting.
+- Select frameless animated robot and character avatars that blink and react in the Agent Library.
+- Review each agent's latest conversation directly in the library and reopen saved sessions through Chat history.
+- Use the minimalist Agent Chat in Control Room or pop the active conversation into a dedicated chat window.
+- Turn the current unsaved system prompt and selected capabilities into a local, interactive workflow diagram.
 - Ingest TXT, Markdown, CSV, JSON, HTML, PDF, DOCX, local folders, and HTTPS sources into knowledge bases.
 - Retrieve relevant passages and return citations.
 - Expose selected flows as typed tools using their declared input and output variables.
 - Delegate focused tasks to explicitly allowed specialist agents without sharing the supervisor's full conversation history.
 - Block self-calls and circular delegation chains, with configurable call-count and depth limits.
-- Test agents in a playground with per-message approval for side-effecting flows.
+- Test agents in a playground with contextual confirmation only when a side-effecting flow is attempted.
 - Publish a standalone local chat and copy website embed code with allowed-origin settings.
 - Preserve versions, sessions, citations, flow traces, delegation traces, and audit events.
 
 See [Agentic AI and Kora Agents](21%20-%20Agents.html).
+
+![Kora Agent Workspace](images/agent-workspace.png)
 
 ## Agent Infrastructure
 
@@ -47,9 +53,9 @@ See [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
 ## Control Room
 
 - Flows
-- Agents and knowledge bases
+- Agents, knowledge bases, saved conversations, and pop-out chat
 - Scheduler
-- Runs and Logs
+- Runs & Logs with separate Workflow Runs and Agent Activity views
 - Global Variables
 - Queue Management
 - Robots

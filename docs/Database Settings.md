@@ -6,6 +6,8 @@ layout: default
 
 # Database Settings
 
+![Kora Control Room - Database](images/control-room-database.png)
+
 Kora uses SQLite automatically on a fresh installation. No database configuration is required for a local desktop or small single-machine deployment.
 
 Open **Control Room > Database** to select SQLite, PostgreSQL, or Microsoft SQL Server for flows, agents, knowledge, conversations, schedules, queues, robot records, settings, and run history.

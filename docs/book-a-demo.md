@@ -34,10 +34,10 @@ page_class: marketing-page
     <div class="contact-panel">
       <div>
         <h2>Request a Kora demonstration</h2>
-        <p>Email the project owner at <a href="mailto:Jearomev@yahoo.com">Jearomev@yahoo.com</a> with a short description of the process you would like to explore.</p>
+        <p>Email the project owner at <a href="mailto:ad.k.likha@gmail.com">ad.k.likha@gmail.com</a> with a short description of the process you would like to explore.</p>
       </div>
       <div class="hero-actions">
-        <a class="button button-primary" href="mailto:Jearomev@yahoo.com?subject=Kora%20Demo%20Request">Email the project owner</a>
+        <a class="button button-primary" href="mailto:ad.k.likha@gmail.com?subject=Kora%20Demo%20Request">Email the project owner</a>
         <a class="button button-secondary" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
       </div>
     </div>

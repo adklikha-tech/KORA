@@ -16,7 +16,7 @@ Download link placeholder:
 
 [Download Kora Installer](https://github.com/adklikha-tech/KORA/tree/main/docs/installer-output)
 
-Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
+Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Arden@mquotient.io | ritz@mquotient.io | Jose@mquotient.io
 
 ## What Kora Does
 

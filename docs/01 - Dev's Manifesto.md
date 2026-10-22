@@ -6,13 +6,15 @@ layout: default
 
 # Developer Manifesto
 
-## Why I Built Kora
+## Why We Built Kora
 
-I've worked with RPA for years.
+We've worked with RPA for years.
 
-I've built automations for real businesses, maintained bots running in production, migrated platforms, handled licensing discussions, dealt with broken orchestrators, and spent countless hours explaining why a simple automation suddenly needed another license.
+We've built automations for real businesses, maintained bots running in production, migrated platforms, handled licensing discussions, dealt with broken orchestrators, and spent countless hours explaining why a simple automation suddenly needed another license.
 
-Over time, I realized something:
+We've also seen automation evolve. The future is no longer only about bots following fixed steps or AI responding to isolated prompts. It is about bringing reliable RPA execution, Agentic AI reasoning, and purpose-built agents together in one practical platform.
+
+Over time, we realized something:
 
 Automation itself isn't the expensive part.
 
@@ -22,13 +24,13 @@ Before many companies even automate their first process, they're already paying 
 
 For many businesses, especially small and medium-sized ones, that's enough to stop their automation journey before it even begins.
 
-That's why I started building Kora.
+That's why we started building Kora.
 
 Not to compete with the biggest RPA platforms.
 
 Not to replace every feature they've built over the last decade.
 
-Just to build something I wished existed when I started.
+Just to build something we wished existed when we started.
 
 Something simpler.
 
@@ -38,9 +40,11 @@ Something developers would actually enjoy using.
 
 ## What Is Kora?
 
-Kora is a low-code automation platform for desktop, browser, API, and AI-powered workflows.
+Kora is an Agentic Process Automation platform that seamlessly combines RPA, Agentic AI, and AI agents.
 
-It lets you build, run, and monitor automations without forcing you into a specific infrastructure or ecosystem.
+It lets you build, run, and monitor deterministic workflows, goal-driven agents, and hybrid automations across desktop applications, browsers, documents, APIs, data, and AI-powered tasks—without forcing you into a specific infrastructure or ecosystem.
+
+RPA gives Kora the reliability to perform repeatable business actions. Agentic AI provides the ability to understand goals, use context, select approved tools, and adapt when work is not completely predictable. Kora Agents bring those capabilities together through instructions, knowledge, memory, reusable flows, and specialist-agent collaboration.
 
 You can start by automating a few tasks on your own computer.
 
@@ -52,23 +56,23 @@ You decide when it's time to scale.
 
 Not your software vendor.
 
-## Built By Someone Who Uses RPA Every Day
+## Built By People Who Use RPA Every Day
 
-Every feature in Kora exists because I've needed it before.
+Every feature in Kora exists because we've needed it before.
 
 Every activity has been inspired by real customer projects.
 
-Every workflow pattern comes from problems I've already solved in production.
+Every workflow pattern comes from problems we've already solved in production.
 
-Instead of adding hundreds of activities that almost nobody uses, I wanted to focus on the ones developers reach for every single day.
+Instead of adding hundreds of activities that almost nobody uses, we wanted to focus on the ones developers reach for every single day.
 
-My goal isn't to create the biggest automation platform.
+Our goal isn't to create the biggest automation platform.
 
 It's to create one of the most practical ones.
 
 ## Automation Shouldn't Be Locked Behind Expensive Licenses
 
-One thing that has always bothered me about the RPA industry is how difficult it is to get started.
+One thing that has always bothered us about the RPA industry is how difficult it is to get started.
 
 You don't just buy automation software.
 
@@ -85,7 +89,7 @@ Before you've even automated a single process, you've already invested thousands
 
 And once you're inside that ecosystem, leaving becomes expensive.
 
-I wanted Kora to be different.
+We wanted Kora to be different.
 
 You purchase a license once.
 
@@ -143,6 +147,30 @@ Kora supports that too.
 
 Scale should happen because your business needs it, not because your software requires it.
 
+## RPA And Agentic AI, Working As One
+
+We don't believe businesses should have to choose between traditional RPA and AI agents.
+
+RPA is excellent at executing structured, repeatable work with precision.
+
+Agentic AI is excellent at understanding context, working toward a goal, making decisions, and adapting the next step.
+
+Kora combines both.
+
+An agent can interpret a request, consult approved knowledge, decide what needs to happen, call a trusted Kora flow, review the result, and continue toward the goal. The flow remains the reliable execution boundary for desktop, browser, document, data, and integration work.
+
+This means developers can use fixed workflows where predictability matters, agents where reasoning is needed, and hybrid automations where both belong in the same process.
+
+Agents can also collaborate. A coordinating agent can delegate focused work to approved specialist agents, each with its own instructions, knowledge, tools, and limits.
+
+But autonomy should never mean a lack of control.
+
+Teams decide what an agent can know, which flows and specialist agents it can use, when human approval is required, and what activity must be recorded. Guardrails, permissions, execution history, and operational logs make the work visible and governable.
+
+The intelligence and the execution should feel like one system.
+
+That is what Agentic Process Automation means to us.
+
 ## AI Without The Middleman
 
 AI is becoming part of almost every automation project.
@@ -173,16 +201,18 @@ You control the costs.
 
 You own the configuration.
 
-Kora simply provides the tools to make AI part of your workflows.
+Kora provides the governed tools that turn your chosen AI into practical agents and make those agents part of real automation workflows.
 
 ## Built To Grow With You
 
-I don't believe software should force you into an architecture you don't need.
+We don't believe software should force you into an architecture—or an automation model—you don't need.
 
 Kora works whether you're:
 
 - Automating your own daily tasks
 - Building bots for a small business
+- Creating agents that use knowledge and approved automation tools
+- Combining agents and RPA flows in end-to-end business processes
 - Managing automations across multiple departments
 - Running enterprise-scale RPA
 
@@ -198,27 +228,35 @@ There isn't a "correct" way to use Kora.
 
 There is only the way that makes sense for you.
 
-## My Goal
+## Our Goal
 
-I'm not trying to build another UiPath.
+We're not trying to build another UiPath.
 
-I'm not trying to build another Power Automate.
+We're not trying to build another Power Automate.
 
 Those products solve different problems for different organizations.
 
-What I want to build is an automation platform that removes as much friction as possible.
+What we want to build is an automation platform that removes as much friction as possible between human intent, AI reasoning, and reliable execution.
 
 One that developers enjoy using.
 
 One that businesses can actually afford.
 
+One where RPA workflows and AI agents work together naturally.
+
+One where agents are useful because they can act through trusted tools—and trustworthy because those actions remain governed and observable.
+
 One that doesn't make automation feel like a long-term financial commitment.
 
-If Kora helps someone automate their first repetitive task, save time every day, or build an automation business without spending a fortune on software, then I've achieved exactly what I set out to do.
+If Kora helps someone automate their first repetitive task, save time every day, or build an automation business without spending a fortune on software, then we've achieved exactly what we set out to do.
 
 ## The Philosophy
 
 Automation should belong to the people who build it.
+
+AI agents should extend automation, not disconnect intelligence from execution.
+
+Autonomy should be powerful, but it should also be governed.
 
 You shouldn't rent your own workflows forever.
 
@@ -234,7 +272,6 @@ Flexible.
 
 Affordable.
 
-Built by an RPA developer, for people who just want to automate.
+Built by RPA developers, for people who just want to automate.
 
-And that's exactly how I intend to keep it.
-
+And that's exactly how we intend to keep it.
